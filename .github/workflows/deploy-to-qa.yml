@@ -24,6 +24,11 @@ jobs:
       run: |
         yarn test
 
+    - name: Running Cypress E2E tests
+      uses: cypress-io/github-action@v1
+      with:
+        browser: chrome
+
   deploy_to_QA:
     name: Upload to AWS QA enviroment
     runs-on: ubuntu-latest
