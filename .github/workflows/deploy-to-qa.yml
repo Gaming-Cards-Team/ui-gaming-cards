@@ -27,6 +27,7 @@ jobs:
     - name: Running Cypress E2E tests
       uses: cypress-io/github-action@v1
       with:
+        start: yarn start
         browser: chrome
 
   deploy_to_QA:
