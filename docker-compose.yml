@@ -1,0 +1,21 @@
+version: "2"
+services:
+    product-gallery-manager:
+        image: jmgorduez/product-gallery-manager:35e615670fcc00c9417912dad5481216ef6a2435
+        container_name: product-gallery-manager
+        environment:
+        - PRODUCT_GALLERY_DB_URL
+        - PORT=8080
+        ports:
+        - "8080:8080"
+        depends_on:
+        - product-gallery
+    product-gallery:
+        image: mongo
+        container_name: product-gallery
+        environment:
+        - PRODUCT_GALLERY_DB_URL_LOCALHOST
+        ports:
+        - "27017:27017"
+        volumes:
+        - ./database-update/data.js:/docker-entrypoint-initdb.d/data.js
