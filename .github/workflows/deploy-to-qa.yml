@@ -35,8 +35,7 @@ jobs:
       uses: cypress-io/github-action@v1
       with:
         start: yarn start
-        with:
-          env: PRODUCT_GALLERY_MANAGER_URL=${{ secrets.PRODUCT_GALLERY_MANAGER_URL_LOCALHOST }}
+        env: PRODUCT_GALLERY_MANAGER_URL=${{ secrets.PRODUCT_GALLERY_MANAGER_URL_LOCALHOST }}
         browser: chrome
 
   deploy_to_QA:
