@@ -1,1 +1,0 @@
-export const PRODUCT_GALLERY_MANAGER = 'http://localhost:8080/api/v1/show-gallery'

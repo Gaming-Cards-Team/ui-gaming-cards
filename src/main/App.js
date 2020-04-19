@@ -1,18 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import MessageList from './MessageList';
-import {PRODUCT_GALLERY_MANAGER} from './util/constant'
+import dotenv from "dotenv";
+dotenv.config({ silent: process.env.NODE_ENV === 'production' });
 
 const App = () => {
 
   const [gallery, setGallery] = useState([]);
 
   useEffect(() => {
-      
-      fetch(PRODUCT_GALLERY_MANAGER)
+      console.log(process.env)
+      fetch(process.env.PRODUCT_GALLERY_MANAGER_URL)
       .then(res => res.json())
       .then(readResponse)
       .catch(console.log)
-  });
+  }, []);
 
   function readResponse(cards) {
     const gallery = cards.map(mapToItem)
