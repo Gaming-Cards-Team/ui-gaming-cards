@@ -1,7 +1,7 @@
 version: "2"
 services:
     product-gallery-manager:
-        image: jmgorduez/product-gallery-manager:35e615670fcc00c9417912dad5481216ef6a2435
+        image: jmgorduez/product-gallery-manager:560da130058f735993ae8f4fcf7b655f59c94126
         container_name: product-gallery-manager
         environment:
         - PRODUCT_GALLERY_DB_URL

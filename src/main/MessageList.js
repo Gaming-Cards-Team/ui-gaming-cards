@@ -2,7 +2,9 @@ import React from 'react';
 
 const MessageList = ({ data }) => (
     <ul>
-        { data.map(message => <li key={message}>{message}</li>) }
+        { data.map(item => {
+            return <li data-testid={item.key} key={item.key}>{item.value}</li>
+        }) }
     </ul>
 );
 

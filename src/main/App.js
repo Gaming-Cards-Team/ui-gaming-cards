@@ -1,18 +1,33 @@
-import React, { useState } from 'react';
-import NewMessageForm from './NewMessageForm';
+import React, { useState, useEffect } from 'react';
 import MessageList from './MessageList';
+import {PRODUCT_GALLERY_MANAGER} from './util/constant'
 
 const App = () => {
 
-  const [messages, setMessages] = useState([]);
-  const handleSend = newMessage => {
-    setMessages([newMessage, ...messages]);
-  };
+  const [gallery, setGallery] = useState([]);
+
+  useEffect(() => {
+      
+      fetch(PRODUCT_GALLERY_MANAGER)
+      .then(res => res.json())
+      .then(readResponse)
+      .catch(console.log)
+  }, []);
+
+  function readResponse(cards) {
+    const gallery = cards.map(mapToItem)
+    setGallery(gallery);
+  }
+
+  function mapToItem(card) {
+    const item = { key: card._id, value: card.name } 
+    return item;
+  }
 
   return (
     <div>
-      <NewMessageForm onSend={handleSend} />
-      <MessageList data={messages} />
+      Cards:
+      <MessageList data={gallery} />
     </div>
   );
 };
