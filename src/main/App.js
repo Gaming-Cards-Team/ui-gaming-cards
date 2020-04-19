@@ -12,7 +12,7 @@ const App = () => {
       .then(res => res.json())
       .then(readResponse)
       .catch(console.log)
-  }, []);
+  });
 
   function readResponse(cards) {
     const gallery = cards.map(mapToItem)
