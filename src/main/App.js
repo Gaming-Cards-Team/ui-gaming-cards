@@ -9,7 +9,7 @@ const App = () => {
 
   useEffect(() => {
       console.log(process.env)
-      fetch(process.env.PRODUCT_GALLERY_MANAGER_URL)
+      fetch(`${process.env.PRODUCT_GALLERY_MANAGER_URL}/api/v1/show-gallery`)
       .then(res => res.json())
       .then(readResponse)
       .catch(console.log)
