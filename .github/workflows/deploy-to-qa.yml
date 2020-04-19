@@ -60,17 +60,16 @@ jobs:
       uses: appleboy/ssh-action@master
       env: 
         TAG: ${{ github.sha }}
-        PRODUCT_GALLERY_MANAGER_URL: ${{ secrets.PRODUCT_GALLERY_MANAGER_URL }}
       with:
         host: ${{ secrets.AWS_SERVER_QA }}
         username: ${{ secrets.AWS_USER_QA }}
         key: ${{ secrets.AWS_PRIVATE_KEY }}
         port: 22
-        envs: TAG,PRODUCT_GALLERY_MANAGER_URL
+        envs: TAG
         script: | 
           docker rm -f -v ui-gaming-cards
           docker rmi -f $(sudo docker images 'jmgorduez/ui-gaming-cards' -q)
-          docker run -d -p 80:80 --network product-gallery-network  -e PORT=80 -e PRODUCT_GALLERY_MANAGER_URL=${PRODUCT_GALLERY_MANAGER_URL} --name ui-gaming-cards "jmgorduez/ui-gaming-cards:${TAG}"
+          docker run -d -p 80:80 --network product-gallery-network  -e PORT=80 --name ui-gaming-cards "jmgorduez/ui-gaming-cards:${TAG}"
       
     - name: Slack Notification
       uses: sonots/slack-notice-action@v3
