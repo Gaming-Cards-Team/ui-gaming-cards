@@ -26,6 +26,7 @@ jobs:
 
     - name: Starting integration test container 
       run: |
+        export PRODUCT_GALLERY_DB_URL=${PRODUCT_GALLERY_DB_URL}
         docker-compose up -d 
         docker ps -a
       env:
