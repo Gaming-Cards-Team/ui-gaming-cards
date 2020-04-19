@@ -34,9 +34,7 @@ jobs:
     - name: Running Cypress E2E tests
       uses: cypress-io/github-action@v1
       with:
-        start: |
-          export PRODUCT_GALLERY_MANAGER_URL=${{ secrets.PRODUCT_GALLERY_MANAGER_URL_LOCALHOST }} 
-          yarn start
+        start: yarn start
         browser: chrome
 
   deploy_to_QA:
