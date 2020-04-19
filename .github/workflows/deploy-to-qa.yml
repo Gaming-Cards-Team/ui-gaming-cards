@@ -26,7 +26,7 @@ jobs:
 
     - name: Starting integration test container 
       run: |
-        export PRODUCT_GALLERY_DB_URL={{ secrets.PRODUCT_GALLERY_DB_URL }}
+        export PRODUCT_GALLERY_DB_URL={{ secrets.PRODUCT_GALLERY_DB_URL_LOCALHOST }}
         docker-compose up -d 
         docker ps -a
 
