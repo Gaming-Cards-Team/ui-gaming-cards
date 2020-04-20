@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import MessageList from './MessageList';
+import Header from './Header';
+import Body from './Body';
+import Footer from './Footer';
 import dotenv from "dotenv";
 dotenv.config({ silent: process.env.NODE_ENV === 'production' });
 
@@ -26,9 +29,16 @@ const App = () => {
   }
 
   return (
-    <div>
-      Cards:
-      <MessageList data={gallery} />
+    <div> 
+      <Header>
+
+      </Header>
+      <Body>
+
+      </Body>
+      <Footer>
+
+      </Footer>
     </div>
   );
 };
