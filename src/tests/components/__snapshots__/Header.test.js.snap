@@ -13,7 +13,7 @@ exports[`Test Header component should have a header div 1`] = `
       <img
         alt="Level Up Logo"
         className="makeStyles-logo-2"
-        id="logo"
+        data-testid="logo"
         src="logo.png"
       />
     </WithStyles(ForwardRef(Toolbar))>

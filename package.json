@@ -71,12 +71,15 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+    "test-precommit": "CI=true node scripts/test.js",
     "e2e": "cypress open",
+    "eslint": "eslint src/**/*.js --ignore-pattern \"node_modules/\"",
     "lint": "jshint .",
     "validate": "npm ls"
   },
   "pre-commit": [
-    "test"
+    "eslint",
+    "test-precommit"
   ],
   "eslintConfig": {
     "extends": "react-app"
