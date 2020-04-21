@@ -18,11 +18,18 @@ exports[`Test App component should validate the component 1`] = `
       />
     </a>
   </nav>
-  <div
-    data-testid="body"
-  >
-    Body
-  </div>
+  <img
+    alt="Star Wars Banner"
+    className=""
+    data-testid="banner"
+    src="banner.jpg"
+    style={
+      Object {
+        "opacity": 0.6,
+      }
+    }
+    width="100%"
+  />
   <div
     data-testid="footer"
   >

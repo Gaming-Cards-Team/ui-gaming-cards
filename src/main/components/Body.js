@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Banner from "./Banner";
 
-const Body = () => (
-    <div data-testid='body'>
-       Body
-    </div>
-);
+const Body = () => {
+  return (
+      <Banner></Banner>
+  );
+};
 
 export default Body;

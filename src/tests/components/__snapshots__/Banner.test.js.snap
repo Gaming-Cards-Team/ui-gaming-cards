@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Body component should validate the Body component 1`] = `
+exports[`Test Header component should validate the Header component 1`] = `
 <img
   alt="Star Wars Banner"
   className=""
