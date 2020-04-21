@@ -24,7 +24,7 @@ const Header = () => {
             data-testid='logo'
             className={classes.logo}
             src={logo}
-            alt="Level Up Logo"
+            alt="Level Up Logo" 
           />
         </Toolbar>
       </AppBar>
