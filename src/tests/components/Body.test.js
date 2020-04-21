@@ -1,13 +1,13 @@
 import React from 'react';
 import Body from '../../main/components/Body';
-import { shallow } from 'enzyme';
+import renderer from 'react-test-renderer';
 
 describe('Test Body component', () => {
 
-    it('should validate the component', () => {
+    it('should validate the Body component', () => {
         
-        const component = shallow(<Body />);
-        expect(component).toMatchSnapshot();
+        const body = renderer.create(<Body />).toJSON();
+        expect(body).toMatchSnapshot();
     });
 
 });

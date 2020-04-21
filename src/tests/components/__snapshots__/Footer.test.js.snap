@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Footer component should have a footer div 1`] = `
+exports[`Test Footer component should validate the Footer component 1`] = `
 <div
   data-testid="footer"
 >

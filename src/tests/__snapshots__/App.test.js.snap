@@ -2,8 +2,34 @@
 
 exports[`Test App component should validate the component 1`] = `
 <div>
-  <Header />
-  <Body />
-  <Footer />
+  <nav
+    className="makeStyles-root-1"
+    id="header"
+  >
+    <header
+      className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorDefault MuiPaper-elevation4"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <img
+          alt="Level Up Logo"
+          className="makeStyles-logo-2"
+          data-testid="logo"
+          src="logo.png"
+        />
+      </div>
+    </header>
+  </nav>
+  <div
+    data-testid="body"
+  >
+    Body
+  </div>
+  <div
+    data-testid="footer"
+  >
+    Footer
+  </div>
 </div>
 `;

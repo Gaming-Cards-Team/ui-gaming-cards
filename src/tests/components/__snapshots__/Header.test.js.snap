@@ -1,22 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Header component should have a header div 1`] = `
+exports[`Test Header component should validate the Header component 1`] = `
 <nav
   className="makeStyles-root-1"
   id="header"
 >
-  <WithStyles(ForwardRef(AppBar))
-    color="default"
-    position="static"
+  <header
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorDefault MuiPaper-elevation4"
   >
-    <WithStyles(ForwardRef(Toolbar))>
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
       <img
         alt="Level Up Logo"
         className="makeStyles-logo-2"
         data-testid="logo"
         src="logo.png"
       />
-    </WithStyles(ForwardRef(Toolbar))>
-  </WithStyles(ForwardRef(AppBar))>
+    </div>
+  </header>
 </nav>
 `;

@@ -1,19 +1,19 @@
 import React from 'react';
 import {render} from '@testing-library/react';
+import renderer from 'react-test-renderer';
 import Footer from '../../main/components/Footer';
-import { shallow } from 'enzyme';
 
 describe('Test Footer component', () => {
 
-    it('should have a fixed test', () => {
+    it('should have a fixed text', () => {
         
         const { getByTest } = render(<Footer />);
     });
 
-    it('should have a footer div', () => {
+    it('should validate the Footer component', () => {
         
-        const component = shallow(<Footer />);
-        expect(component).toMatchSnapshot();
+        const footer = renderer.create(<Footer />).toJSON();
+        expect(footer).toMatchSnapshot();
     });
 
 });

@@ -1,13 +1,22 @@
 import React from 'react';
 import Header from '../../main/components/Header';
-import { shallow } from 'enzyme';
+import {render} from '@testing-library/react';
+import renderer from 'react-test-renderer';
 
 describe('Test Header component', () => {
 
-    it('should have a header div', () => {
+    it('should validate the Header component', () => {
         
-        const component = shallow(<Header />);
-        expect(component).toMatchSnapshot();
+        const header = renderer.create(<Header />).toJSON();
+        expect(header).toMatchSnapshot();
+    });
+
+    it('should have a logo image', () => {
+        
+        const { getByTestId } = render(<Header />);
+        const logoImage = getByTestId('logo')
+
+        expect(logoImage.src).toMatch('logo.png')
     });
 
 });
