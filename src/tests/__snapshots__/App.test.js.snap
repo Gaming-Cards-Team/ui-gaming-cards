@@ -3,7 +3,7 @@
 exports[`Test App component should validate the component 1`] = `
 <div>
   <nav
-    className="navbar navbar-expand navbar-light bg-light"
+    className="navbar navbar-expand navbar-light bg-light fixed-top"
   >
     <a
       className="navbar-brand"
@@ -30,10 +30,21 @@ exports[`Test App component should validate the component 1`] = `
     }
     width="100%"
   />
-  <div
-    data-testid="footer"
+  <nav
+    className="navbar navbar-expand navbar-light bg-success fixed-bottom"
   >
-    Footer
-  </div>
+    <div
+      data-testid="footer-text"
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      Star Wars 2020 All rights reserved. Copyright Level Up 
+    </div>
+  </nav>
 </div>
 `;
