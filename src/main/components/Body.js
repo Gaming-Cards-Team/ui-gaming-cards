@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Body = () => (
-    <div id='body'>
+    <div data-testid='body'>
        Body
     </div>
 );

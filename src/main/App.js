@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import MessageList from './MessageList';
-import Header from './Header';
-import Body from './Body';
-import Footer from './Footer';
+import Header from './components/Header';
+import Body from './components/Body';
+import Footer from './components/Footer';
 import dotenv from "dotenv";
 dotenv.config({ silent: process.env.NODE_ENV === 'production' });
 
@@ -11,7 +10,6 @@ const App = () => {
   const [gallery, setGallery] = useState([]);
 
   useEffect(() => {
-      console.log(process.env)
       fetch(`${process.env.PRODUCT_GALLERY_MANAGER_URL}/api/v1/show-gallery`)
       .then(res => res.json())
       .then(readResponse)
@@ -29,7 +27,7 @@ const App = () => {
   }
 
   return (
-    <div> 
+    <div>
       <Header>
 
       </Header>

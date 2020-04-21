@@ -1,8 +1,9 @@
 describe('Shows the template page', () => {
-    it('Should displays the header, body and footer', () => {
+    it('Should displays 3 cards', () => {
       cy.visit('http://localhost:3000');
-      cy.get('[id="header"]');
-      cy.get('[id="body"]');
-      cy.get('[id="footer"]');
+      
+      cy.contains('Card 1');
+      cy.contains('Card 2');
+      cy.contains('Card 3');
     });
-  });
+});

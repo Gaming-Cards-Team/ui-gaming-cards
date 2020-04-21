@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Header component should have a header div 1`] = `
+<div
+  data-testid="header"
+>
+  Header
+</div>
+`;

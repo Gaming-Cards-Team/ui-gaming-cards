@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App component should validate the component 1`] = `
+<div>
+  <Header />
+  <Body />
+  <Footer />
+</div>
+`;

@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Footer = () => (
-    <div id='footer'>
-       Footer
+    <div data-testid="footer">
+        Footer
     </div>
 );
 
