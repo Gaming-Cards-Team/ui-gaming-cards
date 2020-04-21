@@ -6,4 +6,11 @@ describe('Shows the template page', () => {
       cy.contains('Body');
       cy.contains('Footer');
     });
-});
+    
+    describe('Shows the header', () => {
+      it('Should displays the logo on the header', () => {
+        cy.visit('http://localhost:3000');
+        cy.get('[id="logo"]');
+      });
+    });
+  });
