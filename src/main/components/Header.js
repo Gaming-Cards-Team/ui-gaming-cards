@@ -2,7 +2,7 @@ import AppBar from "@material-ui/core/AppBar";
 import { makeStyles } from "@material-ui/core/styles";
 import Toolbar from "@material-ui/core/Toolbar";
 import React from "react";
-import logo from "./logo.png"
+import logo from "../resources/logo.png"
 
 const useStyles = makeStyles({
   root: {
@@ -21,7 +21,7 @@ const Header = () => {
       <AppBar position="static" color="default">
         <Toolbar>
           <img
-            id='logo'
+            data-testid='logo'
             className={classes.logo}
             src={logo}
             alt="Level Up Logo"
