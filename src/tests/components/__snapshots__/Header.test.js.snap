@@ -2,22 +2,19 @@
 
 exports[`Test Header component should validate the Header component 1`] = `
 <nav
-  className="makeStyles-root-1"
-  id="header"
+  className="navbar navbar-expand navbar-light bg-light"
 >
-  <header
-    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorDefault MuiPaper-elevation4"
+  <a
+    className="navbar-brand"
+    href="#home"
   >
-    <div
-      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
-    >
-      <img
-        alt="Level Up Logo"
-        className="makeStyles-logo-2"
-        data-testid="logo"
-        src="logo.png"
-      />
-    </div>
-  </header>
+    <img
+      alt="Level Up Logo"
+      className=""
+      data-testid="logo"
+      height="48"
+      src="logo.png"
+    />
+  </a>
 </nav>
 `;
