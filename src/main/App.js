@@ -10,19 +10,20 @@ const App = () => {
   const [gallery, setGallery] = useState([]);
 
   useEffect(() => {
-      fetch(`${process.env.PRODUCT_GALLERY_MANAGER_URL}/api/v1/show-gallery`)
+      fetch(`${process.env.PRODUCT_GALLERY_MANAGER_URL}/api/v1/cards`)
       .then(res => res.json())
       .then(readResponse)
       .catch(console.log)
   }, []);
 
   function readResponse(cards) {
-    const gallery = cards.map(mapToItem)
+    const gallery = cards.data.map(mapToItem)
+    console.log(gallery)
     setGallery(gallery);
   }
 
   function mapToItem(card) {
-    const item = { key: card._id, value: card.name } 
+    const item = { key: card.id, value: card.name } 
     return item;
   }
 
