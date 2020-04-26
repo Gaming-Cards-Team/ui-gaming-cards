@@ -76,7 +76,7 @@ jobs:
       with:
         url: http://ec2-3-22-170-115.us-east-2.compute.amazonaws.com/
         cmd_params: "--skip-tls-verification --verbose"
-        run_timeout: 10
+        run_timeout: 1000
         debug: true
       
     - name: Slack Notification
