@@ -1,6 +1,6 @@
 {
   "name": "ui-gaming-cards",
-  "main": "main/index.js",
+  "main": "index.js",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -78,8 +78,7 @@
     "validate": "npm ls"
   },
   "pre-commit": [
-    "eslint",
-    "test-precommit"
+    "eslint"
   ],
   "eslintConfig": {
     "extends": "react-app"
@@ -118,8 +117,8 @@
       "<rootDir>/src/setupTests.js"
     ],
     "testMatch": [
-      "<rootDir>/src/tests/**/*.{js,jsx,ts,tsx}",
-      "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/src/**/__tests__/*.{spec,test}.{js,jsx,ts,tsx}"
     ],
     "testEnvironment": "jest-environment-jsdom-fourteen",
     "transform": {
