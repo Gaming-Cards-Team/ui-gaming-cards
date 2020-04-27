@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from "../resources/banner.png"
+import banner from "../assets/images/banner.png"
 import { BANNER_ALT } from "../util/constant.js"
 
 

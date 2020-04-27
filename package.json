@@ -78,7 +78,8 @@
     "validate": "npm ls"
   },
   "pre-commit": [
-    "eslint"
+    "eslint",
+    "test-precommit"
   ],
   "eslintConfig": {
     "extends": "react-app"

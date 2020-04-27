@@ -24,11 +24,6 @@ exports[`Test App component should validate the component 1`] = `
       className=""
       data-testid="banner"
       src="banner.png"
-      style={
-        Object {
-          "opacity": 0.6,
-        }
-      }
       width="100%"
     />
     <div
@@ -112,7 +107,7 @@ exports[`Test App component should validate the component 1`] = `
         >
           <img
             className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/02/02001.jpg"
+            src="https://swdestinydb.com/bundles/cards/en/01/01001.jpg"
           />
           <div
             className="card-body"
@@ -120,7 +115,7 @@ exports[`Test App component should validate the component 1`] = `
             <div
               className="card-title h5"
             >
-              Death Tropper
+              Captain Phasma
             </div>
             <p
               className="card-text"
@@ -152,7 +147,7 @@ exports[`Test App component should validate the component 1`] = `
         >
           <img
             className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/02/02002.jpg"
+            src="https://swdestinydb.com/bundles/cards/en/01/01002.jpg"
           />
           <div
             className="card-body"
@@ -160,7 +155,7 @@ exports[`Test App component should validate the component 1`] = `
             <div
               className="card-title h5"
             >
-              FN-2199
+              First Order Stormtrooper
             </div>
             <p
               className="card-text"
@@ -192,7 +187,7 @@ exports[`Test App component should validate the component 1`] = `
         >
           <img
             className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/02/02003.jpg"
+            src="https://swdestinydb.com/bundles/cards/en/01/01003.jpg"
           />
           <div
             className="card-body"
@@ -200,7 +195,7 @@ exports[`Test App component should validate the component 1`] = `
             <div
               className="card-title h5"
             >
-              Director Krennic
+              General Grievous
             </div>
             <p
               className="card-text"
@@ -232,7 +227,7 @@ exports[`Test App component should validate the component 1`] = `
         >
           <img
             className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/02/02004.jpg"
+            src="https://swdestinydb.com/bundles/cards/en/01/01004.jpg"
           />
           <div
             className="card-body"
@@ -240,7 +235,7 @@ exports[`Test App component should validate the component 1`] = `
             <div
               className="card-title h5"
             >
-              The Pilot
+              General Veers
             </div>
             <p
               className="card-text"
@@ -272,7 +267,7 @@ exports[`Test App component should validate the component 1`] = `
         >
           <img
             className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/02/02005.jpg"
+            src="https://swdestinydb.com/bundles/cards/en/01/01005.jpg"
           />
           <div
             className="card-body"
@@ -280,61 +275,7 @@ exports[`Test App component should validate the component 1`] = `
             <div
               className="card-title h5"
             >
-              E'web Placement
-            </div>
-            <p
-              className="card-text"
-            >
-              <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
-              >
-                $1.00
-              </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
-            >
-              Add to cart
-            </small>
-          </div>
-        </div>
-      </div>
-      <div
-        style={
-          Object {
-            "marginBottom": 50,
-            "marginLeft": 100,
-            "marginRight": 100,
-            "marginTop": 30,
-          }
-        }
-      />
-      <div
-        className="card-deck"
-      >
-        <div
-          className="card"
-        >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/02/02001.jpg"
-          />
-          <div
-            className="card-body"
-          >
-            <div
-              className="card-title h5"
-            >
-              Death Tropper
+              AT-ST
             </div>
             <p
               className="card-text"
@@ -366,7 +307,7 @@ exports[`Test App component should validate the component 1`] = `
         >
           <img
             className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/02/02002.jpg"
+            src="https://swdestinydb.com/bundles/cards/en/01/01006.jpg"
           />
           <div
             className="card-body"
@@ -374,7 +315,7 @@ exports[`Test App component should validate the component 1`] = `
             <div
               className="card-title h5"
             >
-              FN-2199
+              First Order TIE Fighter
             </div>
             <p
               className="card-text"
@@ -406,7 +347,7 @@ exports[`Test App component should validate the component 1`] = `
         >
           <img
             className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/02/02003.jpg"
+            src="https://swdestinydb.com/bundles/cards/en/01/01007.jpg"
           />
           <div
             className="card-body"
@@ -414,7 +355,7 @@ exports[`Test App component should validate the component 1`] = `
             <div
               className="card-title h5"
             >
-              Director Krennic
+              Commanding Presence
             </div>
             <p
               className="card-text"
@@ -446,7 +387,7 @@ exports[`Test App component should validate the component 1`] = `
         >
           <img
             className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/02/02004.jpg"
+            src="https://swdestinydb.com/bundles/cards/en/01/01008.jpg"
           />
           <div
             className="card-body"
@@ -454,7 +395,7 @@ exports[`Test App component should validate the component 1`] = `
             <div
               className="card-title h5"
             >
-              The Pilot
+              F-11D Rifle
             </div>
             <p
               className="card-text"
@@ -486,7 +427,7 @@ exports[`Test App component should validate the component 1`] = `
         >
           <img
             className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/02/02005.jpg"
+            src="https://swdestinydb.com/bundles/cards/en/01/01009.jpg"
           />
           <div
             className="card-body"
@@ -494,7 +435,47 @@ exports[`Test App component should validate the component 1`] = `
             <div
               className="card-title h5"
             >
-              E'web Placement
+              Count Dooku
+            </div>
+            <p
+              className="card-text"
+            >
+              <div
+                style={
+                  Object {
+                    "textAlign": "right",
+                    "widht": "100%",
+                  }
+                }
+              >
+                $1.00
+              </div>
+            </p>
+          </div>
+          <div
+            className="card-footer"
+          >
+            <small
+              className="text-muted"
+            >
+              Add to cart
+            </small>
+          </div>
+        </div>
+        <div
+          className="card"
+        >
+          <img
+            className="card-img-top"
+            src="https://swdestinydb.com/bundles/cards/en/01/01010.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <div
+              className="card-title h5"
+            >
+              Darth Vader
             </div>
             <p
               className="card-text"

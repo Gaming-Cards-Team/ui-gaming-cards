@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Card component should render successfully 1`] = `
+<div
+  className="card"
+>
+  <img
+    className="card-img-top"
+  />
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+    />
+    <p
+      className="card-text"
+    >
+      <div
+        style={
+          Object {
+            "textAlign": "right",
+            "widht": "100%",
+          }
+        }
+      />
+    </p>
+  </div>
+  <div
+    className="card-footer"
+  >
+    <small
+      className="text-muted"
+    >
+      Add to cart
+    </small>
+  </div>
+</div>
+`;
