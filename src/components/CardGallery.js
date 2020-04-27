@@ -14,7 +14,7 @@ const CardGallery = () => {
   const {data} = mockGetCards;
 return ( <div style={cardGalleryStyle}>
    
-    <CardDeck xs={4}> 
+    <CardDeck> 
       {data.map(card => (
               <ProductCard 
               image={card.image}
