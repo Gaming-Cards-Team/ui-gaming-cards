@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from "../resources/banner.jpg"
+import banner from "../resources/banner.png"
 import { BANNER_ALT } from "../util/constant.js"
 
 const imageStyle={
