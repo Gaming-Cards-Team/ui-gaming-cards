@@ -6,7 +6,7 @@ exports[`Test Body component should validate the Body component 1`] = `
     alt="Star Wars Banner"
     className=""
     data-testid="banner"
-    src="banner.jpg"
+    src="banner.png"
     style={
       Object {
         "opacity": 0.6,
@@ -14,6 +14,69 @@ exports[`Test Body component should validate the Body component 1`] = `
     }
     width="100%"
   />
+  <div
+    style={
+      Object {
+        "background": "black",
+        "color": "white",
+        "fontSize": "larger",
+        "padding": "10px 30px",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-9"
+        style={
+          Object {
+            "padding": "10px 0px",
+          }
+        }
+      >
+        Are you looking for cards for other game cards? check our catalog
+        <a
+          href="https://www.youtube.com/"
+          style={
+            Object {
+              "color": "#2d963f",
+              "fontWeight": "bold",
+            }
+          }
+        >
+           here
+        </a>
+      </div>
+      <div
+        className="col-3"
+        style={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        <a
+          href="https://www.youtube.com/watch?v=3gPu9pp2WOM"
+          style={
+            Object {
+              "color": "#2d963f",
+              "fontWeight": "bold",
+            }
+          }
+        >
+          How to play
+          <img
+            alt="Level Up Logo"
+            data-testid="youtubeVideo"
+            height="48"
+            src="youtubeVideoImage.png"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
   <div
     style={
       Object {
