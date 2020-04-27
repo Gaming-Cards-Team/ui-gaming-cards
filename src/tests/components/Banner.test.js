@@ -16,7 +16,7 @@ describe('Test Header component', () => {
         const { getByTestId } = render(<Banner />);
         const imageBanner = getByTestId('banner')
 
-        expect(imageBanner.src).toMatch('banner.jpg')
+        expect(imageBanner.src).toMatch('banner.png')
     });
 
 });

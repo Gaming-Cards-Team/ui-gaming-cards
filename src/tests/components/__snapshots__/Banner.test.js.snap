@@ -5,7 +5,7 @@ exports[`Test Header component should validate the Header component 1`] = `
   alt="Star Wars Banner"
   className=""
   data-testid="banner"
-  src="banner.jpg"
+  src="banner.png"
   style={
     Object {
       "opacity": 0.6,
