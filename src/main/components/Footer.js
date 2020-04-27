@@ -8,9 +8,15 @@ const textStyle={
     width: "100%",
     textAlign: "center",
   };
+  const footerStyle={
+    backgroundColor: "#2d963f"
+  };
 
 const Footer = () => (
-  <Navbar bg="success" fixed="bottom">
+  <Navbar 
+  fixed="bottom"
+  style={footerStyle}
+  >
     <div
       data-testid="footer-text"
       style={textStyle}

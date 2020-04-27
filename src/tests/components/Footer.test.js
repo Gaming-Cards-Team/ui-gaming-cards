@@ -10,7 +10,7 @@ describe('Test Footer component', () => {
         const { getByTestId } = render(<Footer />);
         const footerText = getByTestId('footer-text')
 
-        expect (footerText.textContent).toBe('Star Wars 2020 All rights reserved. Copyright Level Up ')
+        expect (footerText.textContent).toBe('Copyright Star Wars and all associated names and/or images are copyright Lucasfilm Ltd.')
     });
 
 
