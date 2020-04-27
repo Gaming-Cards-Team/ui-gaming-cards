@@ -1,5 +1,5 @@
 import React from 'react';
-import Body from '../../main/components/Body';
+import Body from '../Body';
 
 import renderer from 'react-test-renderer';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '../../main/components/Banner';
+import Banner from '../Banner';
 import {render} from '@testing-library/react';
 import renderer from 'react-test-renderer';
 

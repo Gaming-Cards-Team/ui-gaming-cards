@@ -1,7 +1,7 @@
 import React from "react";
 import CardDeck from "react-bootstrap/CardDeck";
 import ProductCard from "./ProductCard"
-import mockGetCards from "../mocks/mockGetCards"
+import mockGetCards from "./__mocks__/mockGetCards"
 
 const cardGalleryStyle = {
   marginTop: 30,
@@ -14,9 +14,9 @@ const CardGallery = () => {
   const {data} = mockGetCards;
 return ( <div style={cardGalleryStyle}>
    
-    <CardDeck>
+    <CardDeck xs={4}> 
       {data.map(card => (
-              <ProductCard
+              <ProductCard 
               image={card.image}
               name={card.name}
               price={"$1.00"} >

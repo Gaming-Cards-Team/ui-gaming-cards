@@ -1,6 +1,6 @@
 {
   "name": "ui-gaming-cards",
-  "main": "main/index.js",
+  "main": "index.js",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -91,9 +91,7 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+
     ]
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../../main/components/Header';
+import Header from '../Header';
 import {render} from '@testing-library/react';
 import renderer from 'react-test-renderer';
 
