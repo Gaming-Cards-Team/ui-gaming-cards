@@ -38,15 +38,7 @@ jobs:
           docker rm -f -v ui-gaming-cards
           docker rmi -f $(sudo docker images 'jmgorduez/ui-gaming-cards' -q)
           docker run -d -p 80:80 --network product-gallery-network  -e PORT=80 --name ui-gaming-cards "jmgorduez/ui-gaming-cards:${TAG}"
-  
-    - name: Check deployment
-      uses: ruzickap/action-my-broken-link-checker@v1
-      with:
-        url: http://ec2-3-136-158-140.us-east-2.compute.amazonaws.com/index.html
-        cmd_params: "--skip-tls-verification --verbose"
-        run_timeout: 1000
-        debug: true
-          
+      
     - name: Slack Notification
       uses: sonots/slack-notice-action@v3
       with:
