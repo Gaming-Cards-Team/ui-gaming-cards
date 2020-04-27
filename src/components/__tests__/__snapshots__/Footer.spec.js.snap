@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Footer component should validate the Footer component 1`] = `
+<nav
+  className="navbar navbar-expand navbar-light fixed-bottom"
+  style={
+    Object {
+      "backgroundColor": "#2d963f",
+    }
+  }
+>
+  <div
+    data-testid="footer-text"
+    style={
+      Object {
+        "color": "white",
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    Copyright Star Wars and all associated names and/or images are copyright Lucasfilm Ltd.
+  </div>
+</nav>
+`;

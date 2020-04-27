@@ -24,13 +24,6 @@ jobs:
     - name: Running unit tests  
       run: |
         yarn test
-
-    - name: Starting integration test container 
-      run: |
-        docker-compose up -d 
-        docker ps -a
-      env:
-        PRODUCT_GALLERY_DB_URL: ${{ secrets.PRODUCT_GALLERY_DB_URL }}
   
     - name: Running Cypress E2E tests
       uses: cypress-io/github-action@v1

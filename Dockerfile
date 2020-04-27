@@ -1,6 +1,9 @@
 # pull official base image
 FROM node:10 as react-build
 
+ARG PRODUCT_GALLERY_MANAGER_URL
+RUN echo "PRODUCT_GALLERY_MANAGER_URL=${PRODUCT_GALLERY_MANAGER_URL}"
+
 # set working directory
 WORKDIR /app
 
@@ -11,7 +14,6 @@ RUN yarn
 
 # Build app
 COPY . ./
-RUN echo "PRODUCT_GALLERY_MANAGER_URL='http://ec2-3-22-170-115.us-east-2.compute.amazonaws.com:8080'" >> .env
 RUN yarn build
 RUN rm -R src
 RUN yarn global add serve
