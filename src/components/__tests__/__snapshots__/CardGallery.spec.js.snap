@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Footer component should validate the Footer component 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <div
+    style={
+      Object {
+        "paddingBottom": 50,
+        "paddingLeft": 100,
+        "paddingRight": 100,
+        "paddingTop": 30,
+      }
+    }
+  >
+    <div
+      className="card-deck"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    Loading...
+  </div>
+  <div
+    id="6181588137154954_scrollToFetch_bottom"
+  />
+</div>
+`;
