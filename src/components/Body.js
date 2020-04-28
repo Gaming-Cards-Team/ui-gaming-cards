@@ -5,12 +5,11 @@ import CardGallery from "./CardGallery";
 
 const Body = () => {
   return (
-    <div>
-      <Banner></Banner>
-      <TopMessage></TopMessage>
-     
-      <CardGallery></CardGallery>
-    </div>
+    <>
+      <Banner/>
+      <TopMessage/>
+      <CardGallery/>
+    </>
   );
 };
 

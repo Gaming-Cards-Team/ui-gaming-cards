@@ -1,6 +1,12 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import {
+  VIDEO_ALTERNATIVE_TEXT,
+  MESSAGE_FOR_OTHER_CARDS,
+  HERE,
+  HOW_TO_PLAY,
+} from "../util/constant";
 import youtubeVideoImage from "../assets/images/youtubeVideoImage.png";
 
 const topMessageStyle = {
@@ -25,17 +31,19 @@ const TopMessage = () => (
   <div style={topMessageStyle}>
     <Row>
       <Col xs={9} style={messageStyle}>
-        Are you looking for cards for other game cards? check our catalog
-        <a style={linkStyle} href="https://www.youtube.com/"> here</a>
+        {MESSAGE_FOR_OTHER_CARDS}
+        <a style={linkStyle} href="{#}">
+          {HERE}
+        </a>
       </Col>
       <Col xs={3} style={videoTagStyle}>
         <a style={linkStyle} href="https://www.youtube.com/watch?v=3gPu9pp2WOM">
-          How to play
+          {HOW_TO_PLAY}
           <img
             data-testid="youtubeVideo"
             height="48"
             src={youtubeVideoImage}
-            alt="Level Up Logo"
+            alt={VIDEO_ALTERNATIVE_TEXT}
           />
         </a>
       </Col>
