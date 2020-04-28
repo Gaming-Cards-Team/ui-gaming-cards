@@ -23,6 +23,7 @@ const CardGallery = () => {
               image={card.image}
               name={card.name}
               price={"$1.00"}
+              
             ></ProductCard>
             
           </Col>
