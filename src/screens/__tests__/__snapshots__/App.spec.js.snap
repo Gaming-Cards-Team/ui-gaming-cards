@@ -100,406 +100,446 @@ exports[`Test App component should validate the component 1`] = `
       }
     >
       <div
-        className="card-deck"
+        className="h-auto card-deck"
       >
         <div
-          className="card"
+          className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/01/01001.jpg"
-          />
           <div
-            className="card-body"
+            className="card"
           >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01001.jpg"
+            />
             <div
-              className="card-title h5"
-            >
-              Captain Phasma
-            </div>
-            <p
-              className="card-text"
+              className="card-body"
             >
               <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
+                className="card-title h5"
               >
-                $1.00
+                Captain Phasma
               </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
+              <p
+                className="card-text"
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "widht": "100%",
+                    }
+                  }
+                >
+                  $1.00
+                </div>
+              </p>
+            </div>
+            <div
+              className="card-footer"
             >
-              Add to cart
-            </small>
+              <small
+                className="text-muted"
+              >
+                Add to cart
+              </small>
+            </div>
           </div>
         </div>
         <div
-          className="card"
+          className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/01/01002.jpg"
-          />
           <div
-            className="card-body"
+            className="card"
           >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01002.jpg"
+            />
             <div
-              className="card-title h5"
-            >
-              First Order Stormtrooper
-            </div>
-            <p
-              className="card-text"
+              className="card-body"
             >
               <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
+                className="card-title h5"
               >
-                $1.00
+                First Order Stormtrooper
               </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
+              <p
+                className="card-text"
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "widht": "100%",
+                    }
+                  }
+                >
+                  $1.00
+                </div>
+              </p>
+            </div>
+            <div
+              className="card-footer"
             >
-              Add to cart
-            </small>
+              <small
+                className="text-muted"
+              >
+                Add to cart
+              </small>
+            </div>
           </div>
         </div>
         <div
-          className="card"
+          className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/01/01003.jpg"
-          />
           <div
-            className="card-body"
+            className="card"
           >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01003.jpg"
+            />
             <div
-              className="card-title h5"
-            >
-              General Grievous
-            </div>
-            <p
-              className="card-text"
+              className="card-body"
             >
               <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
+                className="card-title h5"
               >
-                $1.00
+                General Grievous
               </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
+              <p
+                className="card-text"
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "widht": "100%",
+                    }
+                  }
+                >
+                  $1.00
+                </div>
+              </p>
+            </div>
+            <div
+              className="card-footer"
             >
-              Add to cart
-            </small>
+              <small
+                className="text-muted"
+              >
+                Add to cart
+              </small>
+            </div>
           </div>
         </div>
         <div
-          className="card"
+          className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/01/01004.jpg"
-          />
           <div
-            className="card-body"
+            className="card"
           >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01004.jpg"
+            />
             <div
-              className="card-title h5"
-            >
-              General Veers
-            </div>
-            <p
-              className="card-text"
+              className="card-body"
             >
               <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
+                className="card-title h5"
               >
-                $1.00
+                General Veers
               </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
+              <p
+                className="card-text"
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "widht": "100%",
+                    }
+                  }
+                >
+                  $1.00
+                </div>
+              </p>
+            </div>
+            <div
+              className="card-footer"
             >
-              Add to cart
-            </small>
+              <small
+                className="text-muted"
+              >
+                Add to cart
+              </small>
+            </div>
           </div>
         </div>
         <div
-          className="card"
+          className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/01/01005.jpg"
-          />
           <div
-            className="card-body"
+            className="card"
           >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01005.jpg"
+            />
             <div
-              className="card-title h5"
-            >
-              AT-ST
-            </div>
-            <p
-              className="card-text"
+              className="card-body"
             >
               <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
+                className="card-title h5"
               >
-                $1.00
+                AT-ST
               </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
+              <p
+                className="card-text"
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "widht": "100%",
+                    }
+                  }
+                >
+                  $1.00
+                </div>
+              </p>
+            </div>
+            <div
+              className="card-footer"
             >
-              Add to cart
-            </small>
+              <small
+                className="text-muted"
+              >
+                Add to cart
+              </small>
+            </div>
           </div>
         </div>
         <div
-          className="card"
+          className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/01/01006.jpg"
-          />
           <div
-            className="card-body"
+            className="card"
           >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01006.jpg"
+            />
             <div
-              className="card-title h5"
-            >
-              First Order TIE Fighter
-            </div>
-            <p
-              className="card-text"
+              className="card-body"
             >
               <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
+                className="card-title h5"
               >
-                $1.00
+                First Order TIE Fighter
               </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
+              <p
+                className="card-text"
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "widht": "100%",
+                    }
+                  }
+                >
+                  $1.00
+                </div>
+              </p>
+            </div>
+            <div
+              className="card-footer"
             >
-              Add to cart
-            </small>
+              <small
+                className="text-muted"
+              >
+                Add to cart
+              </small>
+            </div>
           </div>
         </div>
         <div
-          className="card"
+          className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/01/01007.jpg"
-          />
           <div
-            className="card-body"
+            className="card"
           >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01007.jpg"
+            />
             <div
-              className="card-title h5"
-            >
-              Commanding Presence
-            </div>
-            <p
-              className="card-text"
+              className="card-body"
             >
               <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
+                className="card-title h5"
               >
-                $1.00
+                Commanding Presence
               </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
+              <p
+                className="card-text"
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "widht": "100%",
+                    }
+                  }
+                >
+                  $1.00
+                </div>
+              </p>
+            </div>
+            <div
+              className="card-footer"
             >
-              Add to cart
-            </small>
+              <small
+                className="text-muted"
+              >
+                Add to cart
+              </small>
+            </div>
           </div>
         </div>
         <div
-          className="card"
+          className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/01/01008.jpg"
-          />
           <div
-            className="card-body"
+            className="card"
           >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01008.jpg"
+            />
             <div
-              className="card-title h5"
-            >
-              F-11D Rifle
-            </div>
-            <p
-              className="card-text"
+              className="card-body"
             >
               <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
+                className="card-title h5"
               >
-                $1.00
+                F-11D Rifle
               </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
+              <p
+                className="card-text"
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "widht": "100%",
+                    }
+                  }
+                >
+                  $1.00
+                </div>
+              </p>
+            </div>
+            <div
+              className="card-footer"
             >
-              Add to cart
-            </small>
+              <small
+                className="text-muted"
+              >
+                Add to cart
+              </small>
+            </div>
           </div>
         </div>
         <div
-          className="card"
+          className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/01/01009.jpg"
-          />
           <div
-            className="card-body"
+            className="card"
           >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01009.jpg"
+            />
             <div
-              className="card-title h5"
-            >
-              Count Dooku
-            </div>
-            <p
-              className="card-text"
+              className="card-body"
             >
               <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
+                className="card-title h5"
               >
-                $1.00
+                Count Dooku
               </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
+              <p
+                className="card-text"
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "widht": "100%",
+                    }
+                  }
+                >
+                  $1.00
+                </div>
+              </p>
+            </div>
+            <div
+              className="card-footer"
             >
-              Add to cart
-            </small>
+              <small
+                className="text-muted"
+              >
+                Add to cart
+              </small>
+            </div>
           </div>
         </div>
         <div
-          className="card"
+          className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
-          <img
-            className="card-img-top"
-            src="https://swdestinydb.com/bundles/cards/en/01/01010.jpg"
-          />
           <div
-            className="card-body"
+            className="card"
           >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01010.jpg"
+            />
             <div
-              className="card-title h5"
-            >
-              Darth Vader
-            </div>
-            <p
-              className="card-text"
+              className="card-body"
             >
               <div
-                style={
-                  Object {
-                    "textAlign": "right",
-                    "widht": "100%",
-                  }
-                }
+                className="card-title h5"
               >
-                $1.00
+                Darth Vader
               </div>
-            </p>
-          </div>
-          <div
-            className="card-footer"
-          >
-            <small
-              className="text-muted"
+              <p
+                className="card-text"
+              >
+                <div
+                  style={
+                    Object {
+                      "textAlign": "right",
+                      "widht": "100%",
+                    }
+                  }
+                >
+                  $1.00
+                </div>
+              </p>
+            </div>
+            <div
+              className="card-footer"
             >
-              Add to cart
-            </small>
+              <small
+                className="text-muted"
+              >
+                Add to cart
+              </small>
+            </div>
           </div>
         </div>
       </div>
