@@ -49,5 +49,15 @@ export default
     "id": "01010",
     "name": "Darth Vader",
     image: "https://swdestinydb.com/bundles/cards/en/01/01010.jpg"
+    },
+    {
+    id: "01011",
+    name: "Kylo Ren",
+    image: "https://swdestinydb.com/bundles/cards/en/01/01011.jpg"
+    },
+    {
+    id: "01012",
+    name: "Nightsister",
+    image: "https://swdestinydb.com/bundles/cards/en/01/01012.jpg"
     }
     ]}

@@ -3,7 +3,6 @@
 exports[`Test Header component should validate the Header component 1`] = `
 <img
   alt="Star Wars Banner"
-  className=""
   data-testid="banner"
   src="banner.png"
   width="100%"

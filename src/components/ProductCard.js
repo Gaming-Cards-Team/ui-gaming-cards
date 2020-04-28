@@ -7,7 +7,7 @@ const cardStyle = {
 };
 
 const ProductCard = (props) => {
-  const { image, name, price } = props;
+  const { image } = props;
   return (
     <div style={cardStyle}>
       <Card >
