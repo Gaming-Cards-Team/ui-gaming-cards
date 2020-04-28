@@ -6,10 +6,10 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row"
 
 const cardGalleryStyle = {
-  marginTop: 30,
-  marginBottom: 50,
-  marginRight: 100,
-  marginLeft: 100,
+  paddingTop: 30,
+  paddingBottom: 50,
+  paddingRight: 100,
+  paddingLeft: 100,
 };
 
 const CardGallery = () => {
@@ -21,8 +21,6 @@ const CardGallery = () => {
           <Col lg={3} md={4} sm={6} xs={12} >
             <ProductCard
               image={card.image}
-              name={card.name}
-              price={"$1.00"}
             ></ProductCard>
             
           </Col>
