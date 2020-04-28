@@ -92,10 +92,10 @@ exports[`Test App component should validate the component 1`] = `
     <div
       style={
         Object {
-          "marginBottom": 50,
-          "marginLeft": 100,
-          "marginRight": 100,
-          "marginTop": 30,
+          "paddingBottom": 50,
+          "paddingLeft": 100,
+          "paddingRight": 100,
+          "paddingTop": 30,
         }
       }
     >
@@ -106,43 +106,24 @@ exports[`Test App component should validate the component 1`] = `
           className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
           <div
-            className="card"
+            style={
+              Object {
+                "paddingBottom": 15,
+                "paddingTop": 10,
+              }
+            }
           >
-            <img
-              className="card-img-top"
-              src="https://swdestinydb.com/bundles/cards/en/01/01001.jpg"
-            />
             <div
-              className="card-body"
+              className="card"
             >
               <div
-                className="card-title h5"
+                className="card-body"
               >
-                Captain Phasma
+                <img
+                  className="card-img-top"
+                  src="https://swdestinydb.com/bundles/cards/en/01/01001.jpg"
+                />
               </div>
-              <p
-                className="card-text"
-              >
-                <div
-                  style={
-                    Object {
-                      "textAlign": "right",
-                      "widht": "100%",
-                    }
-                  }
-                >
-                  $1.00
-                </div>
-              </p>
-            </div>
-            <div
-              className="card-footer"
-            >
-              <small
-                className="text-muted"
-              >
-                Add to cart
-              </small>
             </div>
           </div>
         </div>
@@ -150,43 +131,24 @@ exports[`Test App component should validate the component 1`] = `
           className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
           <div
-            className="card"
+            style={
+              Object {
+                "paddingBottom": 15,
+                "paddingTop": 10,
+              }
+            }
           >
-            <img
-              className="card-img-top"
-              src="https://swdestinydb.com/bundles/cards/en/01/01002.jpg"
-            />
             <div
-              className="card-body"
+              className="card"
             >
               <div
-                className="card-title h5"
+                className="card-body"
               >
-                First Order Stormtrooper
+                <img
+                  className="card-img-top"
+                  src="https://swdestinydb.com/bundles/cards/en/01/01002.jpg"
+                />
               </div>
-              <p
-                className="card-text"
-              >
-                <div
-                  style={
-                    Object {
-                      "textAlign": "right",
-                      "widht": "100%",
-                    }
-                  }
-                >
-                  $1.00
-                </div>
-              </p>
-            </div>
-            <div
-              className="card-footer"
-            >
-              <small
-                className="text-muted"
-              >
-                Add to cart
-              </small>
             </div>
           </div>
         </div>
@@ -194,43 +156,24 @@ exports[`Test App component should validate the component 1`] = `
           className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
           <div
-            className="card"
+            style={
+              Object {
+                "paddingBottom": 15,
+                "paddingTop": 10,
+              }
+            }
           >
-            <img
-              className="card-img-top"
-              src="https://swdestinydb.com/bundles/cards/en/01/01003.jpg"
-            />
             <div
-              className="card-body"
+              className="card"
             >
               <div
-                className="card-title h5"
+                className="card-body"
               >
-                General Grievous
+                <img
+                  className="card-img-top"
+                  src="https://swdestinydb.com/bundles/cards/en/01/01003.jpg"
+                />
               </div>
-              <p
-                className="card-text"
-              >
-                <div
-                  style={
-                    Object {
-                      "textAlign": "right",
-                      "widht": "100%",
-                    }
-                  }
-                >
-                  $1.00
-                </div>
-              </p>
-            </div>
-            <div
-              className="card-footer"
-            >
-              <small
-                className="text-muted"
-              >
-                Add to cart
-              </small>
             </div>
           </div>
         </div>
@@ -238,43 +181,24 @@ exports[`Test App component should validate the component 1`] = `
           className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
           <div
-            className="card"
+            style={
+              Object {
+                "paddingBottom": 15,
+                "paddingTop": 10,
+              }
+            }
           >
-            <img
-              className="card-img-top"
-              src="https://swdestinydb.com/bundles/cards/en/01/01004.jpg"
-            />
             <div
-              className="card-body"
+              className="card"
             >
               <div
-                className="card-title h5"
+                className="card-body"
               >
-                General Veers
+                <img
+                  className="card-img-top"
+                  src="https://swdestinydb.com/bundles/cards/en/01/01004.jpg"
+                />
               </div>
-              <p
-                className="card-text"
-              >
-                <div
-                  style={
-                    Object {
-                      "textAlign": "right",
-                      "widht": "100%",
-                    }
-                  }
-                >
-                  $1.00
-                </div>
-              </p>
-            </div>
-            <div
-              className="card-footer"
-            >
-              <small
-                className="text-muted"
-              >
-                Add to cart
-              </small>
             </div>
           </div>
         </div>
@@ -282,43 +206,24 @@ exports[`Test App component should validate the component 1`] = `
           className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
           <div
-            className="card"
+            style={
+              Object {
+                "paddingBottom": 15,
+                "paddingTop": 10,
+              }
+            }
           >
-            <img
-              className="card-img-top"
-              src="https://swdestinydb.com/bundles/cards/en/01/01005.jpg"
-            />
             <div
-              className="card-body"
+              className="card"
             >
               <div
-                className="card-title h5"
+                className="card-body"
               >
-                AT-ST
+                <img
+                  className="card-img-top"
+                  src="https://swdestinydb.com/bundles/cards/en/01/01005.jpg"
+                />
               </div>
-              <p
-                className="card-text"
-              >
-                <div
-                  style={
-                    Object {
-                      "textAlign": "right",
-                      "widht": "100%",
-                    }
-                  }
-                >
-                  $1.00
-                </div>
-              </p>
-            </div>
-            <div
-              className="card-footer"
-            >
-              <small
-                className="text-muted"
-              >
-                Add to cart
-              </small>
             </div>
           </div>
         </div>
@@ -326,43 +231,24 @@ exports[`Test App component should validate the component 1`] = `
           className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
           <div
-            className="card"
+            style={
+              Object {
+                "paddingBottom": 15,
+                "paddingTop": 10,
+              }
+            }
           >
-            <img
-              className="card-img-top"
-              src="https://swdestinydb.com/bundles/cards/en/01/01006.jpg"
-            />
             <div
-              className="card-body"
+              className="card"
             >
               <div
-                className="card-title h5"
+                className="card-body"
               >
-                First Order TIE Fighter
+                <img
+                  className="card-img-top"
+                  src="https://swdestinydb.com/bundles/cards/en/01/01006.jpg"
+                />
               </div>
-              <p
-                className="card-text"
-              >
-                <div
-                  style={
-                    Object {
-                      "textAlign": "right",
-                      "widht": "100%",
-                    }
-                  }
-                >
-                  $1.00
-                </div>
-              </p>
-            </div>
-            <div
-              className="card-footer"
-            >
-              <small
-                className="text-muted"
-              >
-                Add to cart
-              </small>
             </div>
           </div>
         </div>
@@ -370,43 +256,24 @@ exports[`Test App component should validate the component 1`] = `
           className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
           <div
-            className="card"
+            style={
+              Object {
+                "paddingBottom": 15,
+                "paddingTop": 10,
+              }
+            }
           >
-            <img
-              className="card-img-top"
-              src="https://swdestinydb.com/bundles/cards/en/01/01007.jpg"
-            />
             <div
-              className="card-body"
+              className="card"
             >
               <div
-                className="card-title h5"
+                className="card-body"
               >
-                Commanding Presence
+                <img
+                  className="card-img-top"
+                  src="https://swdestinydb.com/bundles/cards/en/01/01007.jpg"
+                />
               </div>
-              <p
-                className="card-text"
-              >
-                <div
-                  style={
-                    Object {
-                      "textAlign": "right",
-                      "widht": "100%",
-                    }
-                  }
-                >
-                  $1.00
-                </div>
-              </p>
-            </div>
-            <div
-              className="card-footer"
-            >
-              <small
-                className="text-muted"
-              >
-                Add to cart
-              </small>
             </div>
           </div>
         </div>
@@ -414,43 +281,24 @@ exports[`Test App component should validate the component 1`] = `
           className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
           <div
-            className="card"
+            style={
+              Object {
+                "paddingBottom": 15,
+                "paddingTop": 10,
+              }
+            }
           >
-            <img
-              className="card-img-top"
-              src="https://swdestinydb.com/bundles/cards/en/01/01008.jpg"
-            />
             <div
-              className="card-body"
+              className="card"
             >
               <div
-                className="card-title h5"
+                className="card-body"
               >
-                F-11D Rifle
+                <img
+                  className="card-img-top"
+                  src="https://swdestinydb.com/bundles/cards/en/01/01008.jpg"
+                />
               </div>
-              <p
-                className="card-text"
-              >
-                <div
-                  style={
-                    Object {
-                      "textAlign": "right",
-                      "widht": "100%",
-                    }
-                  }
-                >
-                  $1.00
-                </div>
-              </p>
-            </div>
-            <div
-              className="card-footer"
-            >
-              <small
-                className="text-muted"
-              >
-                Add to cart
-              </small>
             </div>
           </div>
         </div>
@@ -458,43 +306,24 @@ exports[`Test App component should validate the component 1`] = `
           className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
           <div
-            className="card"
+            style={
+              Object {
+                "paddingBottom": 15,
+                "paddingTop": 10,
+              }
+            }
           >
-            <img
-              className="card-img-top"
-              src="https://swdestinydb.com/bundles/cards/en/01/01009.jpg"
-            />
             <div
-              className="card-body"
+              className="card"
             >
               <div
-                className="card-title h5"
+                className="card-body"
               >
-                Count Dooku
+                <img
+                  className="card-img-top"
+                  src="https://swdestinydb.com/bundles/cards/en/01/01009.jpg"
+                />
               </div>
-              <p
-                className="card-text"
-              >
-                <div
-                  style={
-                    Object {
-                      "textAlign": "right",
-                      "widht": "100%",
-                    }
-                  }
-                >
-                  $1.00
-                </div>
-              </p>
-            </div>
-            <div
-              className="card-footer"
-            >
-              <small
-                className="text-muted"
-              >
-                Add to cart
-              </small>
             </div>
           </div>
         </div>
@@ -502,43 +331,24 @@ exports[`Test App component should validate the component 1`] = `
           className="col-lg-3 col-md-4 col-sm-6 col-12"
         >
           <div
-            className="card"
+            style={
+              Object {
+                "paddingBottom": 15,
+                "paddingTop": 10,
+              }
+            }
           >
-            <img
-              className="card-img-top"
-              src="https://swdestinydb.com/bundles/cards/en/01/01010.jpg"
-            />
             <div
-              className="card-body"
+              className="card"
             >
               <div
-                className="card-title h5"
+                className="card-body"
               >
-                Darth Vader
+                <img
+                  className="card-img-top"
+                  src="https://swdestinydb.com/bundles/cards/en/01/01010.jpg"
+                />
               </div>
-              <p
-                className="card-text"
-              >
-                <div
-                  style={
-                    Object {
-                      "textAlign": "right",
-                      "widht": "100%",
-                    }
-                  }
-                >
-                  $1.00
-                </div>
-              </p>
-            </div>
-            <div
-              className="card-footer"
-            >
-              <small
-                className="text-muted"
-              >
-                Add to cart
-              </small>
             </div>
           </div>
         </div>

@@ -2,38 +2,23 @@
 
 exports[`Product Card component should render successfully 1`] = `
 <div
-  className="card"
+  style={
+    Object {
+      "paddingBottom": 15,
+      "paddingTop": 10,
+    }
+  }
 >
-  <img
-    className="card-img-top"
-  />
   <div
-    className="card-body"
+    className="card"
   >
     <div
-      className="card-title h5"
-    />
-    <p
-      className="card-text"
+      className="card-body"
     >
-      <div
-        style={
-          Object {
-            "textAlign": "right",
-            "widht": "100%",
-          }
-        }
+      <img
+        className="card-img-top"
       />
-    </p>
-  </div>
-  <div
-    className="card-footer"
-  >
-    <small
-      className="text-muted"
-    >
-      Add to cart
-    </small>
+    </div>
   </div>
 </div>
 `;
