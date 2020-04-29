@@ -3,9 +3,9 @@ import Banner from '../Banner';
 import {render} from '@testing-library/react';
 import renderer from 'react-test-renderer';
 
-describe('Test Header component', () => {
+describe('Test Banner component', () => {
 
-    it('should validate the Header component', () => {
+    it('should validate the component', () => {
         
         const banner = renderer.create(<Banner />).toJSON();
         expect(banner).toMatchSnapshot();
