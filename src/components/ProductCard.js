@@ -1,25 +1,23 @@
-import React, { Suspense } from "react";
+import React from "react";
 import Card from 'react-bootstrap/Card';
-import Loader from 'react-loader-spinner'
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+  
 const cardStyle = {
   paddingTop: 10,
   paddingBottom: 15,
 };
 
-const ImageCard = React.lazy(() => import('./ImageCard'))
-
-const ProductCard = (props) => {
-  const { image } = props;
+const ProductCard = ({ image}) => {
   return (
     <div style={cardStyle}>
-        <Card >
-          <Card.Body>
-              <Suspense fallback={<Loader/>}>
-                <ImageCard image={image} />
-              </Suspense>
-          </Card.Body> 
-        </Card>
+      <Card >
+        <Card.Body>
+          <LazyLoadImage
+            src={image}
+            width={'100%'}
+            effect="blur" />
+        </Card.Body>
+      </Card>
     </div>
   );
 };

@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Image Card component should render successfully 1`] = `
-<img
-  className="card-img-top"
-/>
-`;
