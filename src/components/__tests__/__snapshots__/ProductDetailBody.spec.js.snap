@@ -6,53 +6,182 @@ exports[`Test Product Detail Body component should validate the component 1`] = 
     className="row"
   >
     <div
-      className="col-5"
-      style={
-        Object {
-          "textAlign": "right",
-        }
-      }
+      className="col-lg-1 col-md-0 col-sm-12 col-12"
+    />
+    <div
+      className="col-lg-4 col-md-5 col-sm-12 col-12"
     >
-      Imagen
+      <img
+        alt="Card"
+        src="https://swdestinydb.com/bundles/cards/en/12/12081.jpg"
+      />
     </div>
     <div
-      className="col-7"
-      style={
-        Object {
-          "color": "#2d963f",
-          "fontWeight": "bold",
-        }
-      }
+      className="col-lg-6 col-md-7 col-sm-12 col-12"
     >
       <div>
-        Nombre de la tarjeta Mini detalle
+        <span
+          style={
+            Object {
+              "color": "#2d963f",
+              "fontSize": "xx-large",
+            }
+          }
+        >
+           Destroy the Death Start
+        </span>
+        <p>
+          Covert Missions
+        </p>
         <div
-          className="row"
+          style={
+            Object {
+              "paddingBottom": 15,
+              "paddingTop": 10,
+            }
+          }
         >
           <div
-            className="col-6"
-            style={
-              Object {
-                "textAlign": "right",
-              }
-            }
+            className="card"
           >
-            Atributos
-          </div>
-          <div
-            className="col-6"
-            style={
-              Object {
-                "color": "#2d963f",
-                "fontWeight": "bold",
-              }
-            }
-          >
-            Desripcion
+            <div
+              className="card-body"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-6"
+                  style={Object {}}
+                >
+                  <p>
+                    <span
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                    >
+                      Rarity: 
+                    </span>
+                    Uncommon
+                  </p>
+                  <p>
+                    <span
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                    >
+                      Card#: 
+                    </span>
+                    81
+                  </p>
+                  <p>
+                    <span
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                    >
+                      Card type: 
+                    </span>
+                    Plot
+                  </p>
+                  <p>
+                    <span
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                    >
+                      Affiliation: 
+                    </span>
+                    Hero
+                  </p>
+                  <p>
+                    <span
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                    >
+                      Color: 
+                    </span>
+                    Red
+                  </p>
+                  <p>
+                    <span
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                    >
+                      Point value(s): 
+                    </span>
+                    2
+                  </p>
+                  <p>
+                    <span
+                      style={
+                        Object {
+                          "fontWeight": "bold",
+                        }
+                      }
+                    >
+                      Uniqueness: 
+                    </span>
+                    Non/Unique
+                  </p>
+                </div>
+                <div
+                  className="col-6"
+                >
+                  <p
+                    style={
+                      Object {
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    Description: 
+                  </p>
+                  After setup, give this plot 20 shields. You can resolve your 
+                  <i>
+                    pilot
+                  </i>
+                   and 
+                  <i>
+                    vehicle
+                  </i>
+                   dice showing ranged damage against this plot. 
+                  <b>
+                    Action
+                  </b>
+                   - If this plot has no shields, spend 1 resource to reroll 1 of your 
+                  <i>
+                    pilot
+                  </i>
+                   dice and 1 of your 
+                  <i>
+                    vehicle
+                  </i>
+                   dice. Then, if both of those dice are showing damage, you win the game.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div
+      className="col-lg-1 col-md-0 col-sm-12 col-12"
+    />
   </div>
 </div>
 `;
