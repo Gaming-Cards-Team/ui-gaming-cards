@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import LazyLoad from 'react-lazy-load';
 
 const cardStyle = {
   paddingTop: 10,
@@ -12,7 +13,9 @@ const ProductCard = (props) => {
     <div style={cardStyle}>
       <Card >
         <Card.Body>
-          <Card.Img variant="top" src={image} />
+          <LazyLoad offsetVertical={200}>
+            <Card.Img variant="top" src={image} />
+          </LazyLoad>
         </Card.Body>
       </Card>
     </div>

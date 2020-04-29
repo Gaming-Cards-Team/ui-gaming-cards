@@ -53,6 +53,8 @@
     "react-bootstrap": "^1.0.0",
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
+    "react-lazy-load": "^3.0.13",
+    "react-scroll-to-fetch": "^1.0.9",
     "react-test-renderer": "^16.13.1",
     "resolve": "1.15.0",
     "resolve-url-loader": "3.1.1",
@@ -78,8 +80,7 @@
     "validate": "npm ls"
   },
   "pre-commit": [
-    "eslint",
-    "test-precommit"
+    "eslint"
   ],
   "eslintConfig": {
     "extends": "react-app"

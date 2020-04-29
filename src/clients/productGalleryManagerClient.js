@@ -7,7 +7,7 @@ const productGalleryManagerClient = {
         const url = `${process.env.PRODUCT_GALLERY_MANAGER_URL}api/v1/cards?page=${page}&limit=${limit}`;
         console.log(url)
         return fetch(url, {method: "GET",})
-            .then(res => { return res.json()} );
+            .then(res => { return res.json() } );
     }
 }
 
