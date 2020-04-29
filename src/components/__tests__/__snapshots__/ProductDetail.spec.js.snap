@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Product Detail component should validate the component 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+      style={
+        Object {
+          "textAlign": "right",
+        }
+      }
+    />
+    <div
+      className="col-7"
+      style={
+        Object {
+          "color": "#2d963f",
+          "fontWeight": "bold",
+        }
+      }
+    />
+  </div>
+</div>
+`;
