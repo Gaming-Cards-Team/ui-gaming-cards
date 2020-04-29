@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+<<<<<<< HEAD
 exports[`Card gallery component should render successfully 1`] = `
+=======
+exports[`Test CardGallery component should validate the component 1`] = `
+>>>>>>> Card-82 [@daviddavilatw, @cristtynu] Creates test for Card Gallery
 <div
   style={
     Object {
@@ -11,6 +15,7 @@ exports[`Card gallery component should render successfully 1`] = `
     }
   }
 >
+<<<<<<< HEAD
   <div>
     <div
       className="card-deck"
@@ -155,6 +160,309 @@ exports[`Card gallery component should render successfully 1`] = `
             />
           </rect>
         </svg>
+=======
+  <div
+    className="card-deck"
+  >
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01001.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01002.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01003.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01004.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01005.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01006.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01007.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01008.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01009.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01010.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01011.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-3 col-md-4 col-sm-6 col-12"
+    >
+      <div
+        style={
+          Object {
+            "paddingBottom": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="card-body"
+          >
+            <img
+              className="card-img-top"
+              src="https://swdestinydb.com/bundles/cards/en/01/01012.jpg"
+            />
+          </div>
+        </div>
+>>>>>>> Card-82 [@daviddavilatw, @cristtynu] Creates test for Card Gallery
       </div>
     </div>
   </div>
