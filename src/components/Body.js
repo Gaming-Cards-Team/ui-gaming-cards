@@ -6,6 +6,7 @@ import CardGallery from "./CardGallery";
 const Body = () => {
   return (
     <>
+      <br/><br/><br/>
       <Banner/>
       <TopMessage/>
       <CardGallery/>

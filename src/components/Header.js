@@ -6,7 +6,7 @@ import { LOGO_ALTERNATIVE_TEXT } from "../util/constant";
 
 const Header = () => {
   return (
-    <Navbar bg="light" variant="light">
+    <Navbar bg="light" variant="light" fixed="top">
       <Navbar.Brand href="#home">
         <img
           data-testid="logo"

@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from 'react';
 import CardDeck from "react-bootstrap/CardDeck";
-import ProductCard from "./ProductCard";
-import mockGetCards from "./__mocks__/mockGetCards";
 import Col from "react-bootstrap/Col";
+import productGalleryManagerClient from "../clients/productGalleryManagerClient";
+import ProductCard from './ProductCard';
+import InfiniteScroll from 'react-infinite-scroller';
+import Loader from 'react-loader-spinner';
 
 const cardGalleryStyle = {
   paddingTop: 30,
@@ -10,19 +12,41 @@ const cardGalleryStyle = {
   paddingRight: 100,
   paddingLeft: 100,
 };
-const { data } = mockGetCards;
+
+const loaderStyle = {
+  width: "100%",
+  textAlign: "center",
+};
 
 const CardGallery = () => {
+
+  const [gallery, setGallery] = useState([]);
+  const [hasMore, setHasMore] = useState(true);
+
+  const fetch = (page) => {
+    productGalleryManagerClient.getStarWarsCardsPaginated(page, 8)
+    .then(res => res.data)  
+    .then(newCards => {
+        setHasMore(newCards.lenght !== 0)
+        setGallery(gallery.concat(...newCards))
+      })
+  }
+
   return (
     <div style={cardGalleryStyle}>
-      <CardDeck>
-        {data.map((card) => (
-          <Col key={card.id} lg={3} md={4} sm={6} xs={12}>
-            <ProductCard image={card.image} />
-          </Col>
-        ))}
-      </CardDeck>
-    </div>
+      <InfiniteScroll
+        loadMore={fetch}
+        hasMore={hasMore}
+        loader={<div style={loaderStyle} key={0}><Loader type="Bars"/></div>}>
+        <CardDeck>
+          {gallery.map((card) => (
+            <Col key={card.id} lg={3} md={4} sm={6} xs={12}>
+              <ProductCard image={card.image} />
+            </Col>
+          ))}
+        </CardDeck>
+      </InfiniteScroll>
+    </div >
   );
 };
 

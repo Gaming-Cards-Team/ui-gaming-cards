@@ -1,18 +1,21 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-
+import Card from 'react-bootstrap/Card';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+  
 const cardStyle = {
   paddingTop: 10,
   paddingBottom: 15,
 };
 
-const ProductCard = (props) => {
-  const { image } = props;
+const ProductCard = ({ image }) => {
   return (
     <div style={cardStyle}>
       <Card >
         <Card.Body>
-          <Card.Img variant="top" src={image} />
+          <LazyLoadImage
+            src={image}
+            width={'100%'}
+            effect="blur" />
         </Card.Body>
       </Card>
     </div>

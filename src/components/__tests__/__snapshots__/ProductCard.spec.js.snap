@@ -15,9 +15,29 @@ exports[`Product Card component should render successfully 1`] = `
     <div
       className="card-body"
     >
-      <img
-        className="card-img-top"
-      />
+      <span
+        className=" lazy-load-image-background blur"
+        style={
+          Object {
+            "backgroundImage": "",
+            "backgroundSize": "",
+            "color": "transparent",
+            "display": "inline-block",
+            "height": undefined,
+            "width": "100%",
+          }
+        }
+      >
+        <span
+          className=""
+          style={
+            Object {
+              "display": "inline-block",
+              "width": "100%",
+            }
+          }
+        />
+      </span>
     </div>
   </div>
 </div>
