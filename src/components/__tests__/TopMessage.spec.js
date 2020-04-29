@@ -1,11 +1,11 @@
 import React from "react";
-import ProductCard from "../ProductCard";
+import TopMessage from "../TopMessage";
 import renderer from "react-test-renderer";
 
-describe("Product Card component", () => {
+describe("Top Message component", () => {
   it("Should validate the component", () => {
-    const component = renderer.create(<ProductCard />).toJSON();
-
+    const component = renderer.create(<TopMessage />).toJSON();
+    
     expect(component).toMatchSnapshot();
   });
 });
