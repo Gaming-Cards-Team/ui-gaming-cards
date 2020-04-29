@@ -3,7 +3,7 @@ import Banner from "./Banner";
 import TopMessage from "./TopMessage";
 import CardGallery from "./CardGallery";
 
-const Body = () => {
+const MainBody = () => {
   return (
     <>
       <br/><br/><br/>
@@ -14,4 +14,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default MainBody;
