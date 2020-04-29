@@ -39,7 +39,8 @@ const CardGallery = () => {
       <InfiniteScroll
         loadMore={fetch}
         hasMore={hasMore}
-        loader={<div style={loaderStyle} key={0}><Loader /></div>}>
+        loader={<div style={loaderStyle} key={0}><Loader timeout={3000} type="Bars"/></div>}
+        threshold={500}>
         <CardDeck>
           {gallery.map((card) => (
             <Col key={card.id} lg={3} md={4} sm={6} xs={12}>
