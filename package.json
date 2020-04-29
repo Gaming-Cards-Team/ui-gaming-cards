@@ -76,8 +76,6 @@
     "test": "PRODUCT_GALLERY_MANAGER_URL=http://ec2-3-22-170-115.us-east-2.compute.amazonaws.com:8080/ node scripts/test.js",
     "test-precommit": "PRODUCT_GALLERY_MANAGER_URL=http://ec2-3-22-170-115.us-east-2.compute.amazonaws.com:8080/ CI=true node scripts/test.js",
     "e2e": "cypress open",
-    "deploy-qa-test": "cypress run --spec 'cypress/deploymentChecker/testDeployment.ispec.js'",
-    "deploy-qa-pro": "cypress run --spec 'cypress/deploymentChecker/testDeployment.ispec.js'",
     "eslint": "eslint src/**/*.js --ignore-pattern \"node_modules/\"",
     "lint": "jshint .",
     "validate": "npm ls"

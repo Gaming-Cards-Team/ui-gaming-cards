@@ -66,8 +66,9 @@ jobs:
           docker run -d -p 80:80 --network product-gallery-network --name ui-gaming-cards "jmgorduez/ui-gaming-cards:${TAG}"
 
     - name: Checking the deployment
-      run: |
-          yarn deploy-qa-test
+      uses: cypress-io/github-action@v1
+      with:
+        spec: cypress/deploymentChecker/testDeployment.ispec.js
       
     - name: Slack Notification
       uses: sonots/slack-notice-action@v3
