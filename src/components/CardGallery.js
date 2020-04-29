@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import productGalleryManagerClient from "../clients/productGalleryManagerClient";
 import ProductCard from './ProductCard';
 import InfiniteScroll from 'react-infinite-scroller';
-import Loader from 'react-loader-spinner'
+import Loader from 'react-loader-spinner';
 
 const cardGalleryStyle = {
   paddingTop: 30,
