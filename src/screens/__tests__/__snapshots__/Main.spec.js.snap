@@ -3,11 +3,7 @@
 exports[`Test Main component should validate the component 1`] = `
 Array [
   <nav
-<<<<<<< HEAD
     className="navbar navbar-expand navbar-light bg-light"
-=======
-    className="navbar navbar-expand navbar-light bg-light fixed-top"
->>>>>>> Card-80 [@twjmgorduez] Creates api client
   >
     <a
       className="navbar-brand"
@@ -21,14 +17,6 @@ Array [
       />
     </a>
   </nav>,
-<<<<<<< HEAD
-=======
-  <br />,
-  " ",
-  <br />,
-  " ",
-  <br />,
->>>>>>> Card-80 [@twjmgorduez] Creates api client
   <img
     alt="Star Wars Banner"
     data-testid="banner"
@@ -99,7 +87,6 @@ Array [
     </div>
   </div>,
   <div
-<<<<<<< HEAD
     style={
       Object {
         "paddingBottom": 50,
@@ -413,37 +400,6 @@ Array [
         </div>
       </div>
     </div>
-=======
-    className=""
-    style={Object {}}
-  >
-    <div
-      style={
-        Object {
-          "paddingBottom": 50,
-          "paddingLeft": 100,
-          "paddingRight": 100,
-          "paddingTop": 30,
-        }
-      }
-    >
-      <div
-        className="card-deck"
-      />
-    </div>
-    <div
-      style={
-        Object {
-          "textAlign": "center",
-        }
-      }
-    >
-      Loading...
-    </div>
-    <div
-      id="11588137155162_scrollToFetch_bottom"
-    />
->>>>>>> Card-80 [@twjmgorduez] Creates api client
   </div>,
   <nav
     className="navbar navbar-expand navbar-light fixed-bottom"
