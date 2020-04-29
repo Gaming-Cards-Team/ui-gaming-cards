@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../components/Header";
-import MainBody from "../components/MainBody";
+import ProductDetailBody from "../components/ProductDetailBody";
 import Footer from "../components/Footer";
 
-const Main = () => {
+const ProductDetail = () => {
   return (
     <>
       <Header />
-      <MainBody />
+      <ProductDetailBody />
       <Footer />
     </>
   );
 };
 
-export default Main;
+export default ProductDetail;
