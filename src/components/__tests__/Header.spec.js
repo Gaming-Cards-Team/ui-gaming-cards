@@ -18,5 +18,4 @@ describe('Test Header component', () => {
 
         expect(logoImage.src).toMatch('logo.png')
     });
-
 });

@@ -7,7 +7,7 @@ const cardStyle = {
   paddingBottom: 15,
 };
 
-const ProductCard = ({ image}) => {
+const ProductCard = ({ image }) => {
   return (
     <div style={cardStyle}>
       <Card >

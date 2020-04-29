@@ -24,13 +24,11 @@ const CardGallery = () => {
   const [hasMore, setHasMore] = useState(true);
 
   const fetch = (page) => {
-    productGalleryManagerClient.getStarWarsCardsPaginated(page, 12)
-      .then(res => {
-        const oldData = gallery;
-        const newData = res.data;
-        setHasMore(newData.lenght !== 0)
-        const fullData = oldData.concat(...newData)
-        setGallery(fullData)
+    productGalleryManagerClient.getStarWarsCardsPaginated(page, 8)
+    .then(res => res.data)  
+    .then(newCards => {
+        setHasMore(newCards.lenght !== 0)
+        setGallery(gallery.concat(...newCards))
       })
   }
 
@@ -39,8 +37,7 @@ const CardGallery = () => {
       <InfiniteScroll
         loadMore={fetch}
         hasMore={hasMore}
-        loader={<div style={loaderStyle} key={0}><Loader timeout={3000} type="Bars"/></div>}
-        threshold={500}>
+        loader={<div style={loaderStyle} key={0}><Loader type="Bars"/></div>}>
         <CardDeck>
           {gallery.map((card) => (
             <Col key={card.id} lg={3} md={4} sm={6} xs={12}>
