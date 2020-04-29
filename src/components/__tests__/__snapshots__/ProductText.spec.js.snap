@@ -1,27 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Product Detail component should validate the component 1`] = `
+exports[`Test Product Text component should validate the component 1`] = `
 <div>
+  Nombre de la tarjeta Mini detalle
   <div
     className="row"
   >
     <div
-      className="col-5"
+      className="col-6"
       style={
         Object {
           "textAlign": "right",
         }
       }
-    />
+    >
+      Atributos
+    </div>
     <div
-      className="col-7"
+      className="col-6"
       style={
         Object {
           "color": "#2d963f",
           "fontWeight": "bold",
         }
       }
-    />
+    >
+      Desripcion
+    </div>
   </div>
 </div>
 `;
