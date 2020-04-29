@@ -17,6 +17,60 @@ Array [
       />
     </a>
   </nav>,
+  <div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-5"
+        style={
+          Object {
+            "textAlign": "right",
+          }
+        }
+      >
+        Imagen
+      </div>
+      <div
+        className="col-7"
+        style={
+          Object {
+            "color": "#2d963f",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        <div>
+          Nombre de la tarjeta Mini detalle
+          <div
+            className="row"
+          >
+            <div
+              className="col-6"
+              style={
+                Object {
+                  "textAlign": "right",
+                }
+              }
+            >
+              Atributos
+            </div>
+            <div
+              className="col-6"
+              style={
+                Object {
+                  "color": "#2d963f",
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Desripcion
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
   <nav
     className="navbar navbar-expand navbar-light fixed-bottom"
     style={

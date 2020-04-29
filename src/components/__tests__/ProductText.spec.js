@@ -1,11 +1,11 @@
 import React from 'react';
-import ProductDetail from '../ProductDetail';
+import ProductText from '../ProductText';
 
 import renderer from 'react-test-renderer';
 
-describe('Test Product Detail component', () => {
+describe('Test Product Text component', () => {
     it('should validate the component', () => {
-        const productDetail = renderer.create(<ProductDetail />).toJSON();
+        const productDetail = renderer.create(<ProductText />).toJSON();
 
         expect(productDetail).toMatchSnapshot();
     });
