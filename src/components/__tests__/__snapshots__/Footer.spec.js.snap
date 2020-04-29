@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Footer component should validate the Footer component 1`] = `
+exports[`Test Footer component should validate the component 1`] = `
 <nav
   className="navbar navbar-expand navbar-light fixed-bottom"
   style={

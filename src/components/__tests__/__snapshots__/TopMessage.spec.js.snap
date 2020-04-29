@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+<<<<<<< HEAD
 exports[`Top message component should render successfully 1`] = `
+=======
+exports[`Top Message component Should validate the component 1`] = `
+>>>>>>> Card-82 [@daviddavilatw, @cristtynu] Creates test for Top Message
 <div
   style={
     Object {

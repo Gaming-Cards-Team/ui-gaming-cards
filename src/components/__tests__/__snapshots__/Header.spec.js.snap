@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Header component should validate the Header component 1`] = `
+exports[`Test Header component should validate the component 1`] = `
 <nav
   className="navbar navbar-expand navbar-light bg-light fixed-top"
 >
