@@ -1,10 +1,10 @@
 import React from "react";
-import ProductCard from "../ProductCard";
+import GalleryCard from "../CardGallery";
 import renderer from "react-test-renderer";
 
-describe("Product Card component", () => {
+describe("Card gallery component", () => {
   it("should render successfully", () => {
-    const component = renderer.create(<ProductCard />).toJSON();
+    const component = renderer.create(<GalleryCard />).toJSON();
 
     expect(component).toMatchSnapshot();
   });

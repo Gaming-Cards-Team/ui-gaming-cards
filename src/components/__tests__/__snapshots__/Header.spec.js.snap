@@ -2,7 +2,7 @@
 
 exports[`Test Header component should validate the Header component 1`] = `
 <nav
-  className="navbar navbar-expand navbar-light bg-light"
+  className="navbar navbar-expand navbar-light bg-light fixed-top"
 >
   <a
     className="navbar-brand"

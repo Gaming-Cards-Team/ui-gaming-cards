@@ -15,9 +15,7 @@ exports[`Product Card component should render successfully 1`] = `
     <div
       className="card-body"
     >
-      <img
-        className="card-img-top"
-      />
+      Loading...
     </div>
   </div>
 </div>
