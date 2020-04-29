@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Test Main component should validate the component 1`] = `
-Array [
+<div
+  data-testid="mainPage"
+>
   <nav
     className="navbar navbar-expand navbar-light bg-light fixed-top"
   >
@@ -16,16 +18,16 @@ Array [
         src="logo.png"
       />
     </a>
-  </nav>,
-  <br />,
-  <br />,
-  <br />,
+  </nav>
+  <br />
+  <br />
+  <br />
   <img
     alt="Star Wars Banner"
     data-testid="banner"
     src="banner.png"
     width="100%"
-  />,
+  />
   <div
     style={
       Object {
@@ -88,7 +90,7 @@ Array [
         </a>
       </div>
     </div>
-  </div>,
+  </div>
   <div
     style={
       Object {
@@ -246,7 +248,7 @@ Array [
         </div>
       </div>
     </div>
-  </div>,
+  </div>
   <nav
     className="navbar navbar-expand navbar-light fixed-bottom"
     style={
@@ -267,6 +269,6 @@ Array [
     >
       Copyright Star Wars and all associated names and/or images are copyright Lucasfilm Ltd.
     </div>
-  </nav>,
-]
+  </nav>
+</div>
 `;

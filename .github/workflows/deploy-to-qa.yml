@@ -64,6 +64,10 @@ jobs:
           docker rm -f -v ui-gaming-cards
           docker rmi -f $(sudo docker images 'jmgorduez/ui-gaming-cards' -q)
           docker run -d -p 80:80 --network product-gallery-network --name ui-gaming-cards "jmgorduez/ui-gaming-cards:${TAG}"
+
+    - name: Checking the deployment
+      run: |
+          yarn deploy-qa-test
       
     - name: Slack Notification
       uses: sonots/slack-notice-action@v3
