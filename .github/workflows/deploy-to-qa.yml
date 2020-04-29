@@ -68,7 +68,7 @@ jobs:
     - name: Checking the deployment
       uses: cypress-io/github-action@v1
       with:
-        spec: cypress/deploymentChecker/testDeployment.ispec.js
+        spec: cypress/deploymentChecker/testDeployQA.ispec.js
       
     - name: Slack Notification
       uses: sonots/slack-notice-action@v3
