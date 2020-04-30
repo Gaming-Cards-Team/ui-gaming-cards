@@ -7,7 +7,7 @@ const imageStyle = {
   padding: "40px 0px",
 };
 const productTextStyle = {
-  padding: "40px",
+  padding: "40px 20px",
 };
 
 const ProductDetailBody = () => {
@@ -21,12 +21,12 @@ const ProductDetailBody = () => {
             alt="Card"
           />
         </Col>
-        <Col lg={6} md={6} sm={12} xs={12}>
+        <Col lg={4} md={4} sm={12} xs={12}>
           <div style={productTextStyle}>
           <ProductText />
           </div>
         </Col>
-        <Col lg={1} md={1} sm={12} xs={12}></Col>
+        <Col lg={3} md={3} sm={12} xs={12}></Col>
       </Row>
     </div>
   );

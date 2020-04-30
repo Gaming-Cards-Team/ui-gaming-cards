@@ -9,14 +9,13 @@ const cardStyle = {
   paddingBottom: 15,
 };
 
-const attributesStyle = {};
-const descriptionStyle = {
-  color: "#2d963f",
-  fontWeight: "bold",
+const attributesStyle = {
+  borderRight: "1px solid #a09797e6"
 };
 const titleStyle = {
   color: "#2d963f",
   fontSize: "xx-large",
+  fontWeight: "bold",
 };
 const subtitleStyle = {
   fontWeight: "bold",
@@ -24,7 +23,7 @@ const subtitleStyle = {
 const ProductText = () => (
   <div>
     <span style={titleStyle}> Destroy the Death Start</span>
-    <p>Covert Missions</p>
+    <h4>Covert Missions</h4>
     <div style={cardStyle}>
       <Card>
         <Card.Body>
