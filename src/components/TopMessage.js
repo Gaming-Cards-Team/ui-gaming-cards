@@ -34,7 +34,7 @@ const TopMessage = () => (
         
       </Col>
       <Col xs={3} style={videoTagStyle}>
-        <a style={linkStyle} href="https://www.youtube.com/watch?v=3gPu9pp2WOM">
+        <a style={linkStyle} target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=3gPu9pp2WOM">
           {HOW_TO_PLAY}
           <img
             data-testid="youtubeVideo"
