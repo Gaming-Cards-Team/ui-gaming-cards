@@ -2,6 +2,9 @@
 
 exports[`Test Product Detail Body component should validate the component 1`] = `
 <div>
+  <br />
+  <br />
+  <br />
   <div
     className="row"
   >

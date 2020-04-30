@@ -3,7 +3,7 @@
 exports[`Test ProductDetail component should validate the component 1`] = `
 Array [
   <nav
-    className="navbar navbar-expand navbar-light bg-light"
+    className="navbar navbar-expand navbar-light bg-light fixed-top"
   >
     <a
       className="navbar-brand"
@@ -18,6 +18,9 @@ Array [
     </a>
   </nav>,
   <div>
+    <br />
+    <br />
+    <br />
     <div
       className="row"
     >

@@ -13,6 +13,7 @@ const productTextStyle = {
 const ProductDetailBody = () => {
   return (
     <div>
+      <br/><br/><br/>
       <Row>
         <Col lg={2} md={1} sm={12} xs={12}></Col>
         <Col lg={3} md={4} sm={12} xs={12} style={imageStyle}>
