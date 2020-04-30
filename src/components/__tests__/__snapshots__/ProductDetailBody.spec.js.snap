@@ -20,10 +20,29 @@ exports[`Test Product Detail Body component should validate the component 1`] = 
         }
       }
     >
-      <img
-        alt="Card"
-        src="https://swdestinydb.com/bundles/cards/en/12/12081.jpg"
-      />
+      <span
+        className=" lazy-load-image-background blur"
+        style={
+          Object {
+            "backgroundImage": "",
+            "backgroundSize": "",
+            "color": "transparent",
+            "display": "inline-block",
+            "height": undefined,
+            "width": "100%",
+          }
+        }
+      >
+        <span
+          className=""
+          style={
+            Object {
+              "display": "inline-block",
+              "width": "100%",
+            }
+          }
+        />
+      </span>
     </div>
     <div
       className="col-lg-4 col-md-4 col-sm-12 col-12"
@@ -145,6 +164,7 @@ exports[`Test Product Detail Body component should validate the component 1`] = 
                       >
                         Point value(s): 
                       </span>
+                       
                       2
                     </p>
                     <p>
@@ -172,27 +192,7 @@ exports[`Test Product Detail Body component should validate the component 1`] = 
                     >
                       Description: 
                     </p>
-                    After setup, give this plot 20 shields. You can resolve your 
-                    <i>
-                      pilot
-                    </i>
-                     and 
-                    <i>
-                      vehicle
-                    </i>
-                     dice showing ranged damage against this plot. 
-                    <b>
-                      Action
-                    </b>
-                     - If this plot has no shields, spend 1 resource to reroll 1 of your 
-                    <i>
-                      pilot
-                    </i>
-                     dice and 1 of your 
-                    <i>
-                      vehicle
-                    </i>
-                     dice. Then, if both of those dice are showing damage, you win the game.
+                    After setup, give this plot 20 shields. You can resolve your &lt;i&gt;pilot&lt;/i&gt; and &lt;i&gt;vehicle&lt;/i&gt; dice showing ranged damage against this plot. &lt;b&gt;Action&lt;/b&gt; - If this plot has no shields, spend 1 resource to reroll 1 of your &lt;i&gt;pilot&lt;/i&gt; dice and 1 of your &lt;i&gt;vehicle&lt;/i&gt; dice. Then, if both of those dice are showing damage, you win the game.
                   </div>
                 </div>
               </div>

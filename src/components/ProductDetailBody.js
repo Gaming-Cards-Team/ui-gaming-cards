@@ -2,6 +2,8 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ProductText from "./ProductText";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import MockGetCardDetail from "./__mocks__/mockGetCardDetail";
 const imageStyle = {
   textAlign: "center",
   padding: "40px 0px",
@@ -11,20 +13,30 @@ const productTextStyle = {
 };
 
 const ProductDetailBody = () => {
+  const card = MockGetCardDetail;
   return (
     <div>
-      <br/><br/><br/>
+      <br />
+      <br />
+      <br />
+
       <Row>
         <Col lg={2} md={1} sm={12} xs={12}></Col>
         <Col lg={3} md={4} sm={12} xs={12} style={imageStyle}>
-          <img
-            src="https://swdestinydb.com/bundles/cards/en/12/12081.jpg"
-            alt="Card"
-          />
+          <LazyLoadImage src={card.image} width={"100%"} effect="blur" />
         </Col>
         <Col lg={4} md={4} sm={12} xs={12}>
           <div style={productTextStyle}>
-          <ProductText />
+            <ProductText
+              rarity={card.rarity_name}
+              position={card.position}
+              type={card.type_name}
+              Affiliation={card.affiliation_name}
+              color={card.faction_code}
+              points={card.points}
+              uniqueness={card.uniqueness}
+              text={card.text}
+            />
           </div>
         </Col>
         <Col lg={3} md={3} sm={12} xs={12}></Col>
