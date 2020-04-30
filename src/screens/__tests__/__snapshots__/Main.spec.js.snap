@@ -49,20 +49,7 @@ exports[`Test Main component should validate the component 1`] = `
             "padding": "10px 0px",
           }
         }
-      >
-        Are you looking for cards for other game cards? check our catalog 
-        <a
-          href="{#}"
-          style={
-            Object {
-              "color": "#2d963f",
-              "fontWeight": "bold",
-            }
-          }
-        >
-          here
-        </a>
-      </div>
+      />
       <div
         className="col-3"
         style={
