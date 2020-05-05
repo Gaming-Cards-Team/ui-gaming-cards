@@ -56,12 +56,14 @@ Array [
       >
         <a
           href="https://www.youtube.com/watch?v=3gPu9pp2WOM"
+          rel="noopener noreferrer"
           style={
             Object {
               "color": "#2d963f",
               "fontWeight": "bold",
             }
           }
+          target="_blank"
         >
           How to play 
           <img
