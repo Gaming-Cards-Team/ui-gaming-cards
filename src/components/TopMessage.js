@@ -31,10 +31,7 @@ const TopMessage = () => (
   <div style={topMessageStyle}>
     <Row>
       <Col xs={9} style={messageStyle}>
-        {MESSAGE_FOR_OTHER_CARDS}
-        <a style={linkStyle} href="{#}">
-          {HERE}
-        </a>
+        
       </Col>
       <Col xs={3} style={videoTagStyle}>
         <a style={linkStyle} target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=3gPu9pp2WOM">
