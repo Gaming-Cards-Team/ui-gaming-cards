@@ -1,10 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Test Banner component should validate the component 1`] = `
-<img
-  alt="Star Wars Banner"
-  data-testid="banner"
-  src="banner.png"
-  width="100%"
-/>
+Array [
+  <br />,
+  <br />,
+  <br />,
+]
 `;

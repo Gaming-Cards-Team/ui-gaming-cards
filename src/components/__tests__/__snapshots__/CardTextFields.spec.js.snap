@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Product Text component should validate the component 1`] = `
+<div>
+  <span
+    style={
+      Object {
+        "color": "#2d963f",
+        "fontSize": "xx-large",
+        "fontWeight": "bold",
+      }
+    }
+  >
+     Destroy the Death Start
+  </span>
+  <h4>
+    Covert Missions
+  </h4>
+  <div
+    style={
+      Object {
+        "paddingBottom": 15,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6"
+            style={
+              Object {
+                "borderRight": "1px solid #a09797e6",
+              }
+            }
+          >
+            <p>
+              <span
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Rarity: 
+              </span>
+            </p>
+            <p>
+              <span
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Card#: 
+              </span>
+            </p>
+            <p>
+              <span
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Card type: 
+              </span>
+            </p>
+            <p>
+              <span
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Affiliation: 
+              </span>
+            </p>
+            <p>
+              <span
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Color: 
+              </span>
+            </p>
+            <p>
+              <span
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Point value(s): 
+              </span>
+               
+            </p>
+            <p>
+              <span
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Uniqueness: 
+              </span>
+            </p>
+          </div>
+          <div
+            className="col-6"
+          >
+            <p
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Description: 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

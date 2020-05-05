@@ -2,11 +2,12 @@ import React from "react";
 import Banner from "./Banner";
 import TopMessage from "./TopMessage";
 import CardGallery from "./CardGallery";
+import BlankLines from './BlankLines'
 
-const Body = () => {
+const MainBody = () => {
   return (
     <>
-      <br/><br/><br/>
+      <BlankLines/>
       <Banner/>
       <TopMessage/>
       <CardGallery/>
@@ -14,4 +15,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default MainBody;

@@ -1,11 +1,11 @@
-import React from "react";
-import GalleryCard from "../CardGallery";
-import renderer from "react-test-renderer";
+import React from 'react';
+import CardGallery from '../CardGallery';
+import renderer from 'react-test-renderer';
 
-describe("Card gallery component", () => {
-  it("should render successfully", () => {
-    const component = renderer.create(<GalleryCard />).toJSON();
+describe('Test CardGallery component', () => {
+    it('should validate the component', () => {
+        const cardGallery = renderer.create(<CardGallery />).toJSON();
 
-    expect(component).toMatchSnapshot();
-  });
+        expect(cardGallery).toMatchSnapshot();
+    });
 });
