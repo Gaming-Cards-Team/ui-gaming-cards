@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import CardTextFields from "./CardTextFields";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MockGetCardDetail from "./__mocks__/mockGetCardDetail";
+import BlankLines from './BlankLines'
 
 const imageStyle = { 
   textAlign: "center",
@@ -15,12 +16,9 @@ const productTextStyle = {
 
 const  CardDetailsBody = ({id}) => {
   const card = MockGetCardDetail;
-  console.log(id)
   return (
     <div>
-      <br />
-      <br />
-      <br />
+      <BlankLines />
       <Row>
         <Col lg={2} md={1} sm={12} xs={12}></Col>
         <Col lg={3} md={4} sm={12} xs={12} style={imageStyle}>

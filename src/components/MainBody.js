@@ -2,11 +2,12 @@ import React from "react";
 import Banner from "./Banner";
 import TopMessage from "./TopMessage";
 import CardGallery from "./CardGallery";
+import BlankLines from './BlankLines'
 
 const MainBody = () => {
   return (
     <>
-      <br/><br/><br/>
+      <BlankLines/>
       <Banner/>
       <TopMessage/>
       <CardGallery/>
