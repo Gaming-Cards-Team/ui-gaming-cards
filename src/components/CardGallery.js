@@ -5,6 +5,7 @@ import productGalleryManagerClient from "../clients/productGalleryManagerClient"
 import ProductCard from './ProductCard';
 import InfiniteScroll from 'react-infinite-scroller';
 import Loader from 'react-loader-spinner';
+import { Link } from 'react-router-dom';
 
 const cardGalleryStyle = {
   paddingTop: 30,
@@ -38,13 +39,15 @@ const CardGallery = () => {
         loadMore={fetch}
         hasMore={hasMore}
         loader={<div style={loaderStyle} key={0}><Loader type="Bars"/></div>}>
-        <CardDeck>
-          {gallery.map((card) => (
-            <Col key={card.id} lg={3} md={4} sm={6} xs={12}>
-              <ProductCard image={card.image} />
-            </Col>
-          ))}
-        </CardDeck>
+          <CardDeck>
+            {gallery.map((card) => (
+              <Col key={card.id} lg={3} md={4} sm={6} xs={12}>
+                 <Link to={`/card/${card.id}`}>
+                    <ProductCard image={card.image} /> 
+                 </Link>
+              </Col>
+            ))}
+          </CardDeck>
       </InfiniteScroll>
     </div >
   );

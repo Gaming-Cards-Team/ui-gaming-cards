@@ -20,7 +20,8 @@ const titleStyle = {
 const subtitleStyle = {
   fontWeight: "bold",
 }
-const ProductText = ({rarity, position, type,Affiliation, color, points,uniqueness, text}) => (
+
+const ProductText = ({rarity, position, type, affiliation, color, points, uniqueness, text}) => (
   <div>
     <span style={titleStyle}> Destroy the Death Start</span>
     <h4>Covert Missions</h4>
@@ -32,7 +33,7 @@ const ProductText = ({rarity, position, type,Affiliation, color, points,uniquene
               <p><span style={subtitleStyle}>{RARITY}</span>{rarity}</p>
               <p><span style={subtitleStyle}>{CARD}</span>{position}</p>
               <p><span style={subtitleStyle}>{CARD_TYPE}</span>{type}</p>
-              <p><span style={subtitleStyle}>{AFFILIATION}</span>{Affiliation}</p>
+              <p><span style={subtitleStyle}>{AFFILIATION}</span>{affiliation}</p>
               <p><span style={subtitleStyle}>{COLOR}</span>{color}</p>
               <p><span style={subtitleStyle}>{POINT_VALUES}</span> {points}</p>
               <p><span style={subtitleStyle}>{UNIQUENESS}</span>{uniqueness}</p>

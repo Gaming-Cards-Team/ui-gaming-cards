@@ -1,10 +1,11 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ProductText from "./ProductText";
+import CardTextFields from "./CardTextFields";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MockGetCardDetail from "./__mocks__/mockGetCardDetail";
-const imageStyle = {
+
+const imageStyle = { 
   textAlign: "center",
   padding: "40px 0px",
 };
@@ -12,14 +13,14 @@ const productTextStyle = {
   padding: "40px 20px",
 };
 
-const ProductDetailBody = () => {
+const  CardDetailsBody = ({id}) => {
   const card = MockGetCardDetail;
+  console.log(id)
   return (
     <div>
       <br />
       <br />
       <br />
-
       <Row>
         <Col lg={2} md={1} sm={12} xs={12}></Col>
         <Col lg={3} md={4} sm={12} xs={12} style={imageStyle}>
@@ -27,11 +28,11 @@ const ProductDetailBody = () => {
         </Col>
         <Col lg={4} md={4} sm={12} xs={12}>
           <div style={productTextStyle}>
-            <ProductText
+            <CardTextFields
               rarity={card.rarity_name}
               position={card.position}
               type={card.type_name}
-              Affiliation={card.affiliation_name}
+              affiliation={card.affiliation_name}
               color={card.faction_code}
               points={card.points}
               uniqueness={card.uniqueness}
@@ -45,4 +46,4 @@ const ProductDetailBody = () => {
   );
 };
 
-export default ProductDetailBody;
+export default CardDetailsBody;
