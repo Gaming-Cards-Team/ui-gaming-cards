@@ -2,7 +2,7 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import {RARITY, CARD,CARD_TYPE,AFFILIATION,COLOR,POINT_VALUES,UNIQUENESS,DESCRIPTION} from "../util/cardTextConstant";
+import {RARITY, CARD,CARD_TYPE,AFFILIATION,COLOR,POINT_VALUES,UNIQUENESS,DESCRIPTION} from "../util/cardTextFieldsConstant";
 
 const cardStyle = {
   paddingTop: 10,
