@@ -2,9 +2,6 @@
 
 exports[`Test Main Body component should validate the component 1`] = `
 Array [
-  <br />,
-  <br />,
-  <br />,
   <img
     alt="Star Wars Banner"
     data-testid="banner"

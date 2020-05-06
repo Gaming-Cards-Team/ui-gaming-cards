@@ -2,9 +2,6 @@
 
 exports[`Test Product Detail Body component should validate the component 1`] = `
 <div>
-  <br />
-  <br />
-  <br />
   <div
     className="row"
   >
@@ -20,29 +17,31 @@ exports[`Test Product Detail Body component should validate the component 1`] = 
         }
       }
     >
-      <span
-        className=" lazy-load-image-background blur"
-        style={
-          Object {
-            "backgroundImage": "",
-            "backgroundSize": "",
-            "color": "transparent",
-            "display": "inline-block",
-            "height": undefined,
-            "width": "100%",
-          }
-        }
-      >
+      <div>
         <span
-          className=""
+          className=" lazy-load-image-background blur"
           style={
             Object {
+              "backgroundImage": "",
+              "backgroundSize": "",
+              "color": "transparent",
               "display": "inline-block",
+              "height": undefined,
               "width": "100%",
             }
           }
-        />
-      </span>
+        >
+          <span
+            className=""
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+          />
+        </span>
+      </div>
     </div>
     <div
       className="col-lg-4 col-md-4 col-sm-12 col-12"

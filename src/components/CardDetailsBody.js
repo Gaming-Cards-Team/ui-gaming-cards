@@ -10,7 +10,7 @@ const imageStyle = {
   textAlign: "center",
   padding: "40px 0px",
 };
-const productTextStyle = {
+const productTextStyle = { 
   padding: "40px 20px",
 };
 
@@ -31,7 +31,9 @@ const CardDetailsBody = ({ id }) => {
       <Row>
         <Col lg={2} md={1} sm={12} xs={12}></Col>
         <Col lg={3} md={4} sm={12} xs={12} style={imageStyle}>
-          <LazyLoadImage src={card.image} width={"100%"} effect="blur" />
+          <div data-cy={card.id}>
+            <LazyLoadImage src={card.image} width={"100%"} effect="blur" />
+          </div>
         </Col>
         <Col lg={4} md={4} sm={12} xs={12}>
           <div style={productTextStyle}>

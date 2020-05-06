@@ -22,7 +22,7 @@ const subtitleStyle = {
 }
 
 const CardTextFields = ({name, subtitle, rarity, cardNumber, type, affiliation, color, points, uniqueness, text}) => (
-  <div>
+  <div data-cy={name}>
     <span style={titleStyle}> {name}</span>
     <h4>{subtitle}</h4>
     <div style={cardStyle}>

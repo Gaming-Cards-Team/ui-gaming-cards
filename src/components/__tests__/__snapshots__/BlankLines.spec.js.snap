@@ -1,9 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test Banner component should validate the component 1`] = `
-Array [
-  <br />,
-  <br />,
-  <br />,
-]
-`;
+exports[`Test Banner component should validate the component 1`] = `null`;
