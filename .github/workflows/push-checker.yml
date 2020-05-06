@@ -1,8 +1,7 @@
-
 name: Push checker
 
 on:
-  pull_request:
+  push:
     branches: [ 'Card-*' ]
     branches-ignore: [ master ]
 
