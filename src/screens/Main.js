@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const Main = () => {
   return (
-    <div data-testid="mainPage">
+    <div data-cy="mainPage">
       <Header />
       <MainBody />
       <Footer />
