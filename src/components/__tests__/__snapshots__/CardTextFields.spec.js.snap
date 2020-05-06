@@ -11,11 +11,9 @@ exports[`Test Product Text component should validate the component 1`] = `
       }
     }
   >
-     Destroy the Death Start
+     
   </span>
-  <h4>
-    Covert Missions
-  </h4>
+  <h4 />
   <div
     style={
       Object {

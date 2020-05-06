@@ -21,17 +21,17 @@ const subtitleStyle = {
   fontWeight: "bold",
 }
 
-const ProductText = ({rarity, position, type, affiliation, color, points, uniqueness, text}) => (
+const CardTextFields = ({name, subtitle, rarity, cardNumber, type, affiliation, color, points, uniqueness, text}) => (
   <div>
-    <span style={titleStyle}> Destroy the Death Start</span>
-    <h4>Covert Missions</h4>
+    <span style={titleStyle}> {name}</span>
+    <h4>{subtitle}</h4>
     <div style={cardStyle}>
       <Card>
         <Card.Body>
           <Row>
             <Col xs={6} style={attributesStyle}>
               <p><span style={subtitleStyle}>{RARITY}</span>{rarity}</p>
-              <p><span style={subtitleStyle}>{CARD}</span>{position}</p>
+              <p><span style={subtitleStyle}>{CARD}</span>{cardNumber}</p>
               <p><span style={subtitleStyle}>{CARD_TYPE}</span>{type}</p>
               <p><span style={subtitleStyle}>{AFFILIATION}</span>{affiliation}</p>
               <p><span style={subtitleStyle}>{COLOR}</span>{color}</p>
@@ -49,4 +49,4 @@ const ProductText = ({rarity, position, type, affiliation, color, points, unique
   </div>
 );
 
-export default ProductText;
+export default CardTextFields;

@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import CardTextFields from "./CardTextFields";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import MockGetCardDetail from "./__mocks__/mockGetCardDetail";
-import BlankLines from './BlankLines'
+import BlankLines from './BlankLines';
+import productGalleryManagerClient from "../clients/productGalleryManagerClient";
 
-const imageStyle = { 
+const imageStyle = {
   textAlign: "center",
   padding: "40px 0px",
 };
@@ -14,8 +14,17 @@ const productTextStyle = {
   padding: "40px 20px",
 };
 
-const  CardDetailsBody = ({id}) => {
-  const card = MockGetCardDetail;
+const CardDetailsBody = ({ id }) => {
+
+  const [card, setCard] = useState({});
+
+  useEffect(() => {
+    productGalleryManagerClient.getStarWarsCard(id)
+      .then(card => {
+        setCard(card)
+      })
+  }, [id]);
+
   return (
     <div>
       <BlankLines />
@@ -27,15 +36,16 @@ const  CardDetailsBody = ({id}) => {
         <Col lg={4} md={4} sm={12} xs={12}>
           <div style={productTextStyle}>
             <CardTextFields
-              rarity={card.rarity_name}
-              position={card.position}
-              type={card.type_name}
-              affiliation={card.affiliation_name}
-              color={card.faction_code}
+              name={card.name}
+              subtitle={card.subtitle}
+              rarity={card.rarity}
+              cardNumber={card.card}
+              type={card.type}
+              affiliation={card.affiliation}
+              color={card.color}
               points={card.points}
               uniqueness={card.uniqueness}
-              text={card.text}
-            />
+              text={card.text} />
           </div>
         </Col>
         <Col lg={3} md={3} sm={12} xs={12}></Col>

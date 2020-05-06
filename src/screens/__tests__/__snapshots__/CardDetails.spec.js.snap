@@ -80,11 +80,9 @@ Array [
                 }
               }
             >
-               Destroy the Death Start
+               
             </span>
-            <h4>
-              Covert Missions
-            </h4>
+            <h4 />
             <div
               style={
                 Object {
@@ -120,7 +118,6 @@ Array [
                         >
                           Rarity: 
                         </span>
-                        Uncommon
                       </p>
                       <p>
                         <span
@@ -132,7 +129,6 @@ Array [
                         >
                           Card#: 
                         </span>
-                        81
                       </p>
                       <p>
                         <span
@@ -144,7 +140,6 @@ Array [
                         >
                           Card type: 
                         </span>
-                        Plot
                       </p>
                       <p>
                         <span
@@ -156,7 +151,6 @@ Array [
                         >
                           Affiliation: 
                         </span>
-                        Hero
                       </p>
                       <p>
                         <span
@@ -168,7 +162,6 @@ Array [
                         >
                           Color: 
                         </span>
-                        Red
                       </p>
                       <p>
                         <span
@@ -181,7 +174,6 @@ Array [
                           Point value(s): 
                         </span>
                          
-                        2
                       </p>
                       <p>
                         <span
@@ -193,7 +185,6 @@ Array [
                         >
                           Uniqueness: 
                         </span>
-                        Non/Unique
                       </p>
                     </div>
                     <div
@@ -208,7 +199,6 @@ Array [
                       >
                         Description: 
                       </p>
-                      After setup, give this plot 20 shields. You can resolve your pilot and vehicle dice showing ranged damage against this plot. Action - If this plot has no shields, spend 1 resource to reroll 1 of your pilot dice and 1 of your vehicle dice. Then, if both of those dice are showing damage, you win the game.
                     </div>
                   </div>
                 </div>
