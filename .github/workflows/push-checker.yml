@@ -1,0 +1,42 @@
+
+name: Push checker
+
+on:
+  pull_request:
+    branches: [ 'Card-*' ]
+    branches-ignore: [ master ]
+
+jobs:
+  push_checker:
+    name: Push checker
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Code checkout
+      uses: actions/checkout@v2
+
+    - name: NPM install -g yarn
+      run: sudo npm install -g yarn  
+
+    - name: YARN install
+      run: |
+        yarn
+
+    - name: Running unit tests  
+      run: |
+        yarn test
+  
+    - name: Running Cypress E2E tests
+      uses: cypress-io/github-action@v1
+      with:
+        start: yarn start
+        browser: chrome
+        
+    - name: Slack Notification
+      uses: sonots/slack-notice-action@v3
+      with:
+        status: ${{ job.status }}
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      if: always()
