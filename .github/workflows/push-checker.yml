@@ -28,7 +28,7 @@ jobs:
       run: |
         yarn test
 
-    - name: Starting integration test container 
+    - name: Starting E2E test container 
       run: |
         docker-compose up -d 
         docker ps -a
