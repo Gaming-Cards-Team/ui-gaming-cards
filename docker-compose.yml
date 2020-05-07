@@ -1,11 +1,9 @@
 version: "2"
 services:
     product-gallery-manager:
-        image: jmgorduez/product-gallery-manager:560da130058f735993ae8f4fcf7b655f59c94126
+        image: jmgorduez/product-gallery-manager:10fa2fdfdd848c8c2191c60a5a90e622e5f8442f
         container_name: product-gallery-manager
         environment:
         - PORT=8080
         ports:
         - "8080:8080"
-        depends_on:
-        - product-gallery
