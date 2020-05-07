@@ -2,7 +2,7 @@
 
 exports[`Test Main component should validate the component 1`] = `
 <div
-  data-testid="mainPage"
+  data-cy="mainPage"
 >
   <nav
     className="navbar navbar-expand navbar-light bg-light fixed-top"
@@ -19,9 +19,6 @@ exports[`Test Main component should validate the component 1`] = `
       />
     </a>
   </nav>
-  <br />
-  <br />
-  <br />
   <img
     alt="Star Wars Banner"
     data-testid="banner"

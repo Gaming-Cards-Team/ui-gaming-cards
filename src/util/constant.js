@@ -6,3 +6,5 @@ export const HERE = `here`;
 export const BANNER_ALTERNATIVE_TEXT = `Star Wars Banner`;
 export const LOGO_ALTERNATIVE_TEXT = `Level Up Logo`;
 export const VIDEO_ALTERNATIVE_TEXT = `Video Logo`;
+
+export const GET = "GET";

@@ -1,13 +1,12 @@
-
-name: Pull resquest checker
+name: Push checker
 
 on:
-  pull_request:
-    branches: [ master ]
+  push:
+    branches-ignore: [ master ]
 
 jobs:
-  pull_request_checker:
-    name: Pull request checker
+  push_checker:
+    name: Push checker
     runs-on: ubuntu-latest
 
     steps:
@@ -28,11 +27,16 @@ jobs:
     - name: Running unit tests  
       run: |
         yarn test
+
+    - name: Starting E2E test container 
+      run: |
+        docker-compose up -d 
+        docker ps -a
   
     - name: Running Cypress E2E tests
       uses: cypress-io/github-action@v1
       with:
-        start: yarn start
+        start: yarn start-locally
         browser: chrome
         spec: cypress/integration/*.spec.js
         

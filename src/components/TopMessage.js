@@ -3,8 +3,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {
   VIDEO_ALTERNATIVE_TEXT,
-  MESSAGE_FOR_OTHER_CARDS,
-  HERE,
   HOW_TO_PLAY,
 } from "../util/constant";
 import youtubeVideoImage from "../assets/images/youtubeVideoImage.png";
