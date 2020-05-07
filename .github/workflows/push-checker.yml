@@ -29,6 +29,7 @@ jobs:
       with:
         start: yarn start
         browser: chrome
+        spec: cypress/integration/*.spec.js
         
     - name: Slack Notification
       uses: sonots/slack-notice-action@v3
