@@ -27,16 +27,11 @@ jobs:
     - name: Running unit tests  
       run: |
         yarn test
-
-    - name: Starting E2E test container 
-      run: |
-        docker-compose up -d 
-        docker ps -a
   
     - name: Running Cypress E2E tests
       uses: cypress-io/github-action@v1
       with:
-        start: yarn start-locally
+        start: yarn start
         browser: chrome
         spec: cypress/integration/*.spec.js
         

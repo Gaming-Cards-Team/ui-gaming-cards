@@ -1,7 +1,7 @@
 version: "2"
 services:
     product-gallery-manager:
-        image: jmgorduez/product-gallery-manager:10fa2fdfdd848c8c2191c60a5a90e622e5f8442f
+        image: jmgorduez/product-gallery-manager:QA
         container_name: product-gallery-manager
         environment:
         - PORT=8080
