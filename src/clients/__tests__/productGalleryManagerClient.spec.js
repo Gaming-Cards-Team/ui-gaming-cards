@@ -10,7 +10,7 @@ describe("Product gallery manager client", () => {
     
     expect(fetch).toHaveBeenCalledTimes(1);
     expect(fetch).toHaveBeenCalledWith(
-      "http://ec2-3-22-170-115.us-east-2.compute.amazonaws.com:8080/api/v1/cards?page=1&limit=10",
+      "http://ec2-3-15-56-101.us-east-2.compute.amazonaws.com:8080/api/v1/cards?page=1&limit=10",
       {
         method: "GET",
       }
@@ -25,7 +25,7 @@ describe("Product gallery manager client", () => {
     
     expect(fetch).toHaveBeenCalledTimes(1);
     expect(fetch).toHaveBeenCalledWith(
-      "http://ec2-3-22-170-115.us-east-2.compute.amazonaws.com:8080/api/v1/card?cardId=01003",
+      "http://ec2-3-15-56-101.us-east-2.compute.amazonaws.com:8080/api/v1/card?cardId=01003",
       {
         method: "GET",
       }

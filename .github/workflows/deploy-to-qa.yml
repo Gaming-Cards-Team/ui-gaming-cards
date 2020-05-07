@@ -53,14 +53,14 @@ jobs:
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        buildArgs: PRODUCT_GALLERY_MANAGER_URL=http://ec2-3-22-170-115.us-east-2.compute.amazonaws.com:8080/
+        buildArgs: PRODUCT_GALLERY_MANAGER_URL=http://ec2-3-15-56-101.us-east-2.compute.amazonaws.com:8080/
 
     - name: Deploy app to AWS
       uses: appleboy/ssh-action@master
       env: 
         TAG: ${{ github.sha }}
       with:
-        host: ec2-3-22-170-115.us-east-2.compute.amazonaws.com
+        host: ec2-3-15-56-101.us-east-2.compute.amazonaws.com
         username: ${{ secrets.AWS_USER_QA }}
         key: ${{ secrets.AWS_PRIVATE_KEY }}
         port: 22
