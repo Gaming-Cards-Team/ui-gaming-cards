@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import CardTextFields from "./CardTextFields";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import BlankLines from './BlankLines';
-import productGalleryManagerClient from "../clients/productGalleryManagerClient";
 
 const imageStyle = {
   textAlign: "center",
@@ -14,17 +13,8 @@ const productTextStyle = {
   padding: "40px 20px",
 };
 
-const CardDetailsBody = ({ id }) => {
-
-  const [card, setCard] = useState({});
-
-  useEffect(() => {
-    productGalleryManagerClient.getStarWarsCard(id)
-      .then(card => {
-        setCard(card)
-      })
-  }, [id]);
-
+const CardDetailsBody = ({ card }) => {
+  console.log(card)
   return (
     <div>
       <BlankLines />

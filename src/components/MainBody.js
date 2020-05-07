@@ -4,13 +4,13 @@ import TopMessage from "./TopMessage";
 import CardGallery from "./CardGallery";
 import BlankLines from './BlankLines'
 
-const MainBody = () => {
+const MainBody = ({ getStarWarsCardsPaginated }) => {
   return (
     <>
       <BlankLines/>
       <Banner/>
       <TopMessage/>
-      <CardGallery/>
+      <CardGallery getStarWarsCardsPaginated={ getStarWarsCardsPaginated }/>
     </>
   );
 };

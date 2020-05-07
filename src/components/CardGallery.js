@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import CardDeck from "react-bootstrap/CardDeck";
 import Col from "react-bootstrap/Col";
-import productGalleryManagerClient from "../clients/productGalleryManagerClient";
 import ProductCard from './ProductCard';
 import InfiniteScroll from 'react-infinite-scroller';
 import Loader from 'react-loader-spinner';
@@ -19,14 +18,13 @@ const loaderStyle = {
   textAlign: "center",
 };
 
-const CardGallery = () => {
+const CardGallery = ({ getStarWarsCardsPaginated }) => {
 
   const [gallery, setGallery] = useState([]);
   const [hasMore, setHasMore] = useState(true);
 
   const fetch = (page) => {
-    productGalleryManagerClient.getStarWarsCardsPaginated(page, 8)
-      .then(res => res.data)
+    getStarWarsCardsPaginated(page)
       .then(newCards => {
         setHasMore(newCards.lenght !== 0)
         setGallery(gallery.concat(...newCards))
