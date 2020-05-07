@@ -21,6 +21,10 @@ jobs:
       run: |
         yarn
 
+    - name: Running static code review  
+      run: |
+        yarn eslint
+
     - name: Running unit tests  
       run: |
         yarn test
