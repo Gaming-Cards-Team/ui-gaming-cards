@@ -67,6 +67,9 @@ jobs:
           docker rmi -f $(sudo docker images 'jmgorduez/ui-gaming-cards' -q)
           docker run -d -p 80:80 --network product-gallery-network --name ui-gaming-cards "jmgorduez/ui-gaming-cards:${TAG}"
 
+    - name: Code checkout
+      uses: actions/checkout@v2
+      
     - name: Checking the deployment
       uses: cypress-io/github-action@v1
       with:
