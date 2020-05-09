@@ -1,5 +1,14 @@
 version: "2"
 services:
+    ui-gaming-cards:
+        image: jmgorduez/ui-gaming-cards:QA
+        container_name: ui-gaming-cards
+        environment:
+        - PORT=80
+        ports:
+        - "80:80"
+        depends_on:
+        - product-gallery-manager
     product-gallery-manager:
         image: jmgorduez/product-gallery-manager:QA
         container_name: product-gallery-manager
