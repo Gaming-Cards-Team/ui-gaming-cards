@@ -1,13 +1,22 @@
 # pull official base image
 FROM node:10 as react-build
 
+ARG PRODUCT_GALLERY_MANAGER_URL
+RUN echo "PRODUCT_GALLERY_MANAGER_URL=${PRODUCT_GALLERY_MANAGER_URL}"
+ENV PORT=80
+
 # set working directory
 WORKDIR /app
 
-# Copy app files
-COPY build/ build/
+# Install app dependencies
+COPY package*.json ./
+COPY yarn.lock ./
+RUN yarn   
 
-# Install serve server
+# Build app
+COPY . ./
+RUN yarn build
+RUN rm -R src
 RUN yarn global add serve
 
 # Start app
