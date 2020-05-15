@@ -78,7 +78,7 @@
     "build:staging": "env-cmd -f .env.staging node scripts/build.js",
     "build:production": "env-cmd -f .env.production node scripts/build.js",
     "test": "env-cmd -f .env.test node scripts/test.js",
-    "test:precommit": "env-cmd -f .env.test CI=true node scripts/test.js",
+    "test:precommit": "CI=true env-cmd -f .env.test node scripts/test.js",
     "e2e": "cypress open",
     "eslint": "eslint src/**/*.js --ignore-pattern \"node_modules/\"",
     "lint": "jshint .",
