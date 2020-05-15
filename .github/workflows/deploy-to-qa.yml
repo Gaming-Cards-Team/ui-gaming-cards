@@ -31,9 +31,13 @@ jobs:
     - name: Running Cypress E2E tests
       uses: cypress-io/github-action@v1
       with:
-        start: yarn start
+        start: yarn start:staging
         browser: chrome
         spec: cypress/integration/*.spec.js
+
+    - name: Build app  
+      run: |
+        yarn build:staging
 
     - name: Upload app images to the registry
       uses: mr-smithers-excellent/docker-build-push@v2
@@ -44,7 +48,6 @@ jobs:
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        buildArgs: PRODUCT_GALLERY_MANAGER_URL=http://ec2-3-23-123-190.us-east-2.compute.amazonaws.com:8080/
   
   deploy_to_QA:
     name: Upload to AWS QA enviroment

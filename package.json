@@ -73,11 +73,12 @@
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
-    "start": "PORT=3000 PRODUCT_GALLERY_MANAGER_URL=http://ec2-3-23-123-190.us-east-2.compute.amazonaws.com:8080/ node scripts/start.js",
-    "start-locally": "PORT=3000 PRODUCT_GALLERY_MANAGER_URL=http://localhost:8080/ node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "PRODUCT_GALLERY_MANAGER_URL=http://ec2-3-23-123-190.us-east-2.compute.amazonaws.com:8080/ node scripts/test.js",
-    "test-precommit": "PRODUCT_GALLERY_MANAGER_URL=http://ec2-3-23-123-190.us-east-2.compute.amazonaws.com:8080/ CI=true node scripts/test.js",
+    "start:staging": "env-cmd -f .env.staging node scripts/start.js",
+    "start:production": "env-cmd -f .env.production node scripts/start.js",
+    "build:staging": "env-cmd -f .env.staging node scripts/build.js",
+    "build:production": "env-cmd -f .env.production node scripts/build.js",
+    "test": "env-cmd -f .env.test node scripts/test.js",
+    "test:precommit": "env-cmd -f .env.test CI=true node scripts/test.js",
     "e2e": "cypress open",
     "eslint": "eslint src/**/*.js --ignore-pattern \"node_modules/\"",
     "lint": "jshint .",
@@ -85,7 +86,7 @@
   },
   "pre-commit": [
     "eslint",
-    "test-precommit"
+    "test:precommit"
   ],
   "eslintConfig": {
     "extends": "react-app"
