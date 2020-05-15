@@ -5,7 +5,7 @@ FROM node:10 as react-build
 WORKDIR /app
 
 # Copy app files
-COPY build ./build
+COPY build/ build/
 
 # Install serve server
 RUN yarn global add serve
