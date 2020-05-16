@@ -1,7 +1,12 @@
+import dotenv from "dotenv";
+dotenv.config({});
+
 describe('Deployment checker', () => {
     
   it('Should get the mainPage component', () => {
-      cy.visit('http://ec2-3-23-123-190.us-east-2.compute.amazonaws.com/');
+      const appUrl = process.env.REACT_APP_URL;
+      console.log(appUrl)
+      cy.visit(appUrl);
       
       cy.get('[data-cy="mainPage"]').should('exist');
   });
