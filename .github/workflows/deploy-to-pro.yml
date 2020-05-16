@@ -27,6 +27,7 @@ jobs:
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        buildArgs: NODE_ENV='production'
 
     - name: Deploy app to AWS
       uses: appleboy/ssh-action@master

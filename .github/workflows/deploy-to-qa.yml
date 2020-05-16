@@ -48,6 +48,7 @@ jobs:
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        buildArgs: NODE_ENV='staging'
   
   deploy_to_QA:
     name: Upload to AWS QA enviroment
