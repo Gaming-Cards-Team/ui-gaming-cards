@@ -15,7 +15,7 @@ RUN yarn
 
 # Build app
 COPY . ./
-RUN yarn build:staging
+RUN yarn build
 RUN rm -R src
 RUN yarn global add serve
 
