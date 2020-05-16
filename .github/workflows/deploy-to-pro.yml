@@ -13,10 +13,6 @@ jobs:
     steps:
     - name: Code checkout
       uses: actions/checkout@v2
-          
-    - name: Build app  
-      run: |
-        yarn build:production
 
     - name: Upload app images to the registry
       uses: mr-smithers-excellent/docker-build-push@v2
